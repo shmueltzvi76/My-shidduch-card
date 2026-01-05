@@ -211,6 +211,18 @@
             border-top: 2px dashed var(--primary-light);
         }
         
+        .section-content p {
+            margin-bottom: 12px;
+        }
+        
+        .expand-btn-content p {
+            margin-bottom: 12px;
+        }
+        
+        .expand-btn-content p:last-child {
+            margin-bottom: 0;
+        }
+        
         .expand-btn.active .expand-btn-content {
             display: block;
         }
@@ -234,7 +246,7 @@
         /* Basic Info Grid */
         .info-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: 12px;
             margin: 15px 0;
         }
@@ -301,7 +313,7 @@
         }
         
         li {
-            margin-bottom: 8px;
+            margin-bottom: 15px;
             color: var(--text-dark);
         }
         
@@ -430,11 +442,11 @@
             }
             
             .info-grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr;
             }
             
             .contact-grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr;
             }
         }
     </style>
