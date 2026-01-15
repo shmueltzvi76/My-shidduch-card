@@ -442,6 +442,45 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+
+        /* Desktop optimizations */
+        @media (min-width: 1024px) {
+            .container {
+                max-width: 1200px;
+                padding: 50px;
+            }
+
+            .photos-section {
+                gap: 40px;
+            }
+
+            .photo-card {
+                flex: 1 1 350px;
+                max-width: 400px;
+            }
+
+            .info-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+            }
+
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+                max-width: 800px;
+                margin: 15px auto;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            .container {
+                max-width: 1400px;
+            }
+
+            .info-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
