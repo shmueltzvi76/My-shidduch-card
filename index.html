@@ -124,7 +124,7 @@
         .photo-card:nth-child(3) img {
             object-fit: contain;
             object-position: center;
-            height: 350px;
+            height: 450px;
         }
         .photo-card img:hover {
             transform: scale(1.02);
@@ -432,6 +432,12 @@
         }
         
         @media (max-width: 768px) {
+            .photo-card:nth-child(3) img {
+                object-fit: cover;
+                object-position: center top;
+                height: 450px;
+            }
+
             .container {
                 padding: 20px;
             }
