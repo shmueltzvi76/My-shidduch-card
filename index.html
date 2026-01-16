@@ -112,10 +112,9 @@
         .photo-card img {
             width: 100%;
             height: 450px;
-            object-fit: contain;
-            object-position: center;
+            object-fit: cover;
+            object-position: center top;
             border-radius: var(--radius);
-            background: var(--bg-cream);
             box-shadow: var(--shadow-soft);
             border: 4px solid white;
             transition: transform 0.3s ease;
@@ -326,7 +325,6 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
-            justify-items: center;
             margin: 15px 0;
         }
         
@@ -1111,9 +1109,6 @@
                                 <div class="contact-role">אמו של שמואל צבי</div>
                                 <div class="contact-phone">054-330-6824</div>
                             </div>
-                        <div style="text-align: center; font-size: 0.85em; color: var(--text-muted); margin-top: 10px; font-style: italic;">
-                            * מספרי טלפון נוספים של בני המשפחה יישלחו לפי בקשה
-                        </div>
                         </div>
                     </div>
                 </div>
