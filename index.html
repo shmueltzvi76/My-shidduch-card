@@ -112,12 +112,12 @@
         .photo-card img {
             width: 100%;
             height: 450px;
-            object-fit: contain;
+            object-fit: cover;
             object-position: center;
             border-radius: var(--radius);
             background: var(--bg-cream);
             box-shadow: var(--shadow-soft);
-            border: 4px solid white;
+            border: 3px solid white;
             transition: transform 0.3s ease;
         }
         
@@ -320,9 +320,15 @@
         
         .contact-card {
             background: var(--bg-cream);
-            padding: 15px;
+            padding: 18px;
             border-radius: var(--radius-sm);
             border: 2px solid var(--primary-light);
+            width: 100%;
+            min-height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
         }
 
         .contact-card-full {
@@ -421,7 +427,9 @@
         
         @media (max-width: 768px) {
             .container {
-                padding: 20px;
+                padding: 15px;
+                max-width: 100%;
+                margin: 0;
             }
 
             h1 {
@@ -440,8 +448,8 @@
             }
 
             .photo-card img {
-                height: auto;
-                max-height: 400px;
+                height: 400px;
+                object-fit: cover;
                 border: 2px solid white;
             }
 
@@ -1171,11 +1179,11 @@
                     </div>
                 </div>
                 
-                <div style="background: var(--primary); color: white; padding: 20px; border-radius: var(--radius-sm); margin-top: 20px; text-align: center;">
-                    <h3 style="margin-bottom: 15px; font-family: 'Noto Serif Hebrew', serif;">שמואל צבי כהן</h3>
-                    <p style="margin-bottom: 8px;">📱 טלפון: <span dir="ltr">053-931-1073</span></p>
-                    <p style="margin-bottom: 8px;">✉️ מייל: shmueltzvi76@gmail.com</p>
-                    <p>📍 כתובת: קצרין, רמת הגולן</p>
+                <div style="background: var(--primary); color: white; padding: 25px 20px; border-radius: var(--radius-sm); margin-top: 20px; text-align: center;">
+                    <h3 style="margin-bottom: 15px; font-family: 'Noto Serif Hebrew', serif; font-size: 1.3em;">שמואל צבי כהן</h3>
+                    <p style="margin-bottom: 10px; font-size: 1.05em; word-wrap: break-word;">📱 טלפון: <span dir="ltr" style="white-space: nowrap;">053-931-1073</span></p>
+                    <p style="margin-bottom: 10px; font-size: 1.05em; word-wrap: break-word;">✉️ מייל: <span style="word-break: break-all;">shmueltzvi76@gmail.com</span></p>
+                    <p style="font-size: 1.05em;">📍 כתובת: קצרין, רמת הגולן</p>
                 </div>
             </div>
         </div>
