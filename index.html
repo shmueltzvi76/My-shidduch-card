@@ -354,6 +354,24 @@
             grid-column: 1 / -1;
         }
 
+        .family-section-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: start;
+        }
+
+        .family-note-box {
+            background: linear-gradient(135deg, #f8f3e8 0%, #fff5e6 100%);
+            padding: 20px;
+            border-radius: var(--radius-sm);
+            border: 2px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 110px;
+        }
+
         .contact-name {
             font-weight: 600;
             color: var(--primary);
@@ -489,6 +507,14 @@
 
             .contact-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .family-section-wrapper {
+                display: block;
+            }
+
+            .family-note-box {
+                margin-top: 15px;
             }
         }
     </style>
@@ -1132,14 +1158,18 @@
                         <span>🔽 משפחה</span>
                     </div>
                     <div class="expand-btn-content">
-                        <div class="contact-grid">
-                            <div class="contact-card contact-card-full">
-                                <div class="contact-name">איילה שולמית כהן</div>
-                                <div class="contact-role">אמו של שמואל צבי</div>
-                                <div class="contact-phone">054-330-6824</div>
+                        <div class="family-section-wrapper">
+                            <div class="contact-grid">
+                                <div class="contact-card">
+                                    <div class="contact-name">איילה שולמית כהן</div>
+                                    <div class="contact-role">אמו של שמואל צבי</div>
+                                    <div class="contact-phone">054-330-6824</div>
+                                </div>
+                            </div>
+                            <div class="family-note-box">
+                                <p style="text-align: center; margin: 0; font-size: 0.9em; color: #1a4a5e;">* מספרי טלפון נוספים של בני המשפחה יישלחו לפי בקשה</p>
                             </div>
                         </div>
-                        <p style="text-align: center; margin-top: 15px; font-size: 0.9em; color: #666;">* מספרי טלפון נוספים של בני המשפחה יישלחו לפי בקשה</p>
                     </div>
                 </div>
                 
