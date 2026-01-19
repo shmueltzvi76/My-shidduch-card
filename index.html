@@ -445,12 +445,6 @@
         }
         
         @media (max-width: 768px) {
-            .photo-card:nth-child(3) img {
-                object-fit: cover;
-                object-position: center top;
-                height: 450px;
-            }
-
             .container {
                 padding: 20px;
             }
@@ -471,11 +465,14 @@
             }
 
             .photo-card img {
-                height: 400px;
-                object-fit: contain;
-                border: 2px solid white;
-                padding: 5px;
+                height: 350px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: var(--radius);
                 background: white;
+                box-shadow: var(--shadow-soft);
+                border: 3px solid white;
+                padding: 5px;
             }
 
             .section-header {
