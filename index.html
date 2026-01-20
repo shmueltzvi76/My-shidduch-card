@@ -466,6 +466,7 @@
                 flex-direction: column;
                 align-items: center;
                 gap: 20px;
+                margin-bottom: 20px;
             }
 
             .photo-card {
@@ -501,6 +502,23 @@
 
             .family-note-box {
                 margin-top: 15px;
+            }
+        }
+
+        /* === תיקון תצוגת תמונות בדסקטופ - אופציה 2 (Grid עם גובה אחיד) === */
+        /* אם לא טוב - פשוט תמחק את הקטע הזה */
+        @media (min-width: 769px) {
+            .photos-section {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+                margin: 30px 0;
+            }
+
+            .photo-card img {
+                width: 100%;
+                height: 450px;
+                object-fit: contain;
             }
         }
     </style>
