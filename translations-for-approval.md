@@ -76,7 +76,7 @@
 | עברית | English |
 |-------|---------|
 | מה באמת מייחד אותו? | What truly makes him unique? |
-| מי ששוחח איתו יעיד - הוא חדור מטרה, סקרן ומשתדל תמיד לרדת לשורש העניין. איש אשכולות אמיתי, מקשיב ומבין לעומק. הידע שצובר לא נשאר תיאורטי - הוא בונה ממנו תפיסת עולם ודרך חיים שלמה. מחפש בת זוג שתוכל להעריך ולהתחבר לעומק הזה. | Those who have spoken with him will attest - he is driven by purpose, curious, and always strives to get to the root of the matter. A true man of many talents, he listens and understands deeply. The knowledge he acquires doesn't remain theoretical - he builds from it a complete worldview and way of life. He seeks a partner who can appreciate and connect with this depth. |
+| מי ששוחח איתו יעיד - הוא חדור מטרה, סקרן ומשתדל תמיד לרדת לשורש העניין. איש אשכולות אמיתי, מקשיב ומבין לעומק. הידע שצובר לא נשאר תיאורטי - הוא בונה ממנו תפיסת עולם ודרך חיים שלמה. מחפש בת זוג שתוכל להעריך ולהתחבר לעומק הזה. | Those who have spoken with him will attest - he is driven by purpose, curious, and always strives to get to the root of the matter. A true Polymath, he listens and understands deeply. The knowledge he acquires doesn't remain theoretical - he builds from it a complete worldview and way of life. He seeks a partner who can appreciate and connect with this depth. |
 | שמואל צבי רואה את כל התחומים האלה כדרך לעבוד את ה'. | Shmuel Tzvi sees all these fields as a way to serve Hashem. |
 
 ---
@@ -162,7 +162,7 @@
 |-------|---------|
 | מוזיקה ונגינה | Music & Playing |
 | למד בילדותו לנגן על גיטרה ואורגן, ומעוניין לחזור לנגן אחרי החתונה. בקרוב יתחיל ללמוד על כינור סיני ואח"כ קלאסי. | Learned to play guitar and organ as a child, and wants to return to playing after marriage. Soon he will start learning Chinese violin and then classical. |
-| אוהב לשמוע מוזיקה, במיוחד מנגינות - המנגינות העצובות מרגשות אותו ומכניסות אותו להתבודדות וחשבון נפש. | Loves listening to music, especially melodies - sad melodies move him and bring him to introspection and self-reflection. |
+| אוהב לשמוע מוזיקה, במיוחד מנגינות - המנגינות העצובות מרגשות אותו ומכניסות אותו להתבודדות וחשבון נפש. | Loves listening to music, especially melodies - sad melodies move him and bring him to "hitbodedut" and self-reflection. |
 
 ---
 
@@ -171,7 +171,7 @@
 | עברית | English |
 |-------|---------|
 | לימוד וקריאה | Learning & Reading |
-| שמואל צבי ממש איש אשכולות. | Shmuel Tzvi is truly a man of many talents. |
+| שמואל צבי ממש איש אשכולות. | Shmuel Tzvi is truly a Polymath. |
 | הוא נהנה ללמוד ספרי קודש, מדע, טכנולוגיה, אומנות ועוד. | He enjoys learning holy books, science, technology, art, and more. |
 | הוא משתדל ללמוד ב-25 ספרים שונים כל יום. | He strives to learn from 25 different books every day. |
 | זה נשמע המון... אבל הוא באמת לומד ממקום של סקרנות עמוקה ללא גבולות. | It sounds like a lot... but he truly learns from a place of deep, boundless curiosity. |
@@ -203,6 +203,61 @@
 |-------|---------|
 | טיולים ופעילות אקסטרים | Hiking & Extreme Activities |
 | אוהב לאתגר את עצמו בפעילויות בטוחות אך ממריצות. | Loves challenging himself with safe but exhilarating activities. |
+
+---
+
+# סקשן 4: השקפה דתית ותפיסת עולם | Section 4: Religious Outlook & Worldview
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| השקפה דתית ותפיסת עולם | Religious Outlook & Worldview |
+
+---
+
+## רמה דתית והלכה | Religious Level & Halacha
+
+| עברית | English |
+|-------|---------|
+| רמה דתית והלכה | Religious Level & Halacha |
+| רמה דתית: חרדי ששאיפתו להיות כמו הרבנים הגדולים. כששואל רב - התשובה שקיבל אינה בגדר המלצה (הגדרת הרב יוסף בן פורת) ומשתדל ללכת בדרך זו. | Religious level: Charedi whose aspiration is to be like the great Rabbis. When he asks a Rabbi - the answer he receives is not merely a recommendation (as defined by Rav Yosef Ben Porat) and he strives to follow this path. |
+| הלכה: בהלכות הולך לפי הרב עובדיה זצוק"ל. | Halacha: Follows Rav Ovadia zt"l in halachic matters. |
+| כשרות: מקפיד על מהדרין (ממעט אכילת אבקת חלב נוכרי). | Kashrut: Keeps Mehadrin (minimizes consumption of non-Jewish milk powder). |
+
+---
+
+## תפילה ולימוד | Prayer & Learning
+
+| עברית | English |
+|-------|---------|
+| תפילה ולימוד | Prayer & Learning |
+| תפילה: מתפלל שלוש תפילות ביום בבית כנסת ר' אבון בקצרין. | Prayer: Prays three times daily at the R' Avun synagogue in Katzrin. |
+| לימוד: קובע עיתים לתורה - משתדל קצת יותר מחצי יום (4 סדרי לימוד). | Learning: Sets fixed times for Torah study - strives for a bit more than half the day (4 learning sessions). |
+
+---
+
+## חזון ומטרות בחיים | Vision & Life Goals
+
+| עברית | English |
+|-------|---------|
+| חזון ומטרות בחיים | Vision & Life Goals |
+| לימוד תורה - להגדיל את איכות, כמות ואורך הלימוד. | Torah learning - to increase the quality, quantity, and duration of learning. |
+| משפחה וחינוך - להיות שותף פעיל בחיי המשפחה ובחינוך ילדים בדרך ישראל סבא, עם דגש על חינוך ביתי לבנים. | Family & education - to be an active partner in family life and in educating children in the traditional Jewish way, with emphasis on homeschooling for sons. |
+| פיתוח אישי ומקצועי - ללמוד מוהלות, הנדסת מכונות ועוד תחומים שיעשירו את עולמו ויכולותיו. | Personal & professional development - to learn mohel certification, mechanical engineering, and other fields that will enrich his world and abilities. |
+| עסקים - טיפול בעסקיו הקיימים והרחבתם. | Business - managing his existing businesses and expanding them. |
+| איזון - לשמור על איזון בריא בין כל התחומים מתוך הבנה שהכל נועד לשרת את עבודת ה'. | Balance - to maintain a healthy balance between all areas, understanding that everything is meant to serve Avodas Hashem. |
+
+---
+
+## ציטוט אישי | Personal Quote
+
+| עברית | English |
+|-------|---------|
+| אגלה לך משהו שורשי אצל שמואל צבי, המטרה העיקרית שלו ואני מצטט אותו: | I'll reveal something fundamental about Shmuel Tzvi, his main goal, and I quote him: |
+| "להיות מוכן ליום הדין - לשמח את בורא עולם על שהוא ומשפחתו השלימו את עצמם כפי שהיו צריכים ויותר." | "To be ready for the Day of Judgment - to make the Creator happy that he and his family fulfilled themselves as they should and beyond." |
+| "לא להתעכב על דברים בטלים אלא להשתמש בתכונות ובכישרונות לעשות טוב עם כל נברא ודבר." | "Not to dwell on trivial matters but to use traits and talents to do good with every creature and thing." |
+| "להיות אור לסביבה ולקרב את הגאולה." | "To be a light to his surroundings and to bring the redemption closer." |
 
 ---
 
