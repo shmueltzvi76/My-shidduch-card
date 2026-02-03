@@ -232,7 +232,7 @@
 | עברית | English |
 |-------|---------|
 | תפילה ולימוד | Prayer & Learning |
-| תפילה: מתפלל שלוש תפילות ביום בבית כנסת ר' אבון בקצרין. | Prayer: Prays three times daily at the R' Avun synagogue in Katzrin. |
+| תפילה: מתפלל שלוש תפילות ביום בבית כנסת ר' אבון בקצרין. | Prayer: Prays three times daily at the R' Abun synagogue in Katzrin. |
 | לימוד: קובע עיתים לתורה - משתדל קצת יותר מחצי יום (4 סדרי לימוד). | Learning: Sets fixed times for Torah study - strives for a bit more than half the day (4 learning sessions). |
 
 ---
@@ -258,6 +258,52 @@
 | "להיות מוכן ליום הדין - לשמח את בורא עולם על שהוא ומשפחתו השלימו את עצמם כפי שהיו צריכים ויותר." | "To be ready for the Day of Judgment - to make the Creator happy that he and his family fulfilled themselves as they should and beyond." |
 | "לא להתעכב על דברים בטלים אלא להשתמש בתכונות ובכישרונות לעשות טוב עם כל נברא ודבר." | "Not to dwell on trivial matters but to use traits and talents to do good with every creature and thing." |
 | "להיות אור לסביבה ולקרב את הגאולה." | "To be a light to his surroundings and to bring the redemption closer." |
+
+---
+
+# סקשן 5: השכלה ולימודים | Section 5: Education & Studies
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| השכלה ולימודים | Education & Studies |
+
+---
+
+## לימודי תורה | Torah Studies
+
+| עברית | English |
+|-------|---------|
+| לימודי תורה | Torah Studies |
+| למד כשלוש שנים בישיבה גבוהה "אש התלמוד" בירושלים (בית וגן). | Studied for about three years at "Esh HaTalmud" Yeshiva Gedolah in Jerusalem (Bayit Vegan). |
+| היום לומד חצי יום בכולל באישור הרב שלו, ומשקיע 4 סדרי לימוד ביום. | Today he learns half a day in Kollel with his Rabbi's approval, investing in 4 learning sessions daily. |
+| הלימוד זה לא "עוד משימה ביום" שלו - זה הדבר שהוא הכי מתחבר אליו. | Learning is not just "another task in his day" - it's what he connects to most deeply. |
+| הוא מאוד נהנה מלימודים עמוקים וכשלומד משהו הוא מנסה ליישם את מה שלמד בהקדם ולא להשאיר אותו כרעיון בלבד. הוא לומד בסגנון מאוד עיוני והוא תמיד מחפש לרדת לשורש הדברים. | He greatly enjoys in-depth learning, and when he learns something, he tries to apply it as soon as possible rather than leaving it as just an idea. He learns in a very analytical style and always seeks to get to the root of matters. |
+
+---
+
+## השכלה מקצועית | Professional Education
+
+| עברית | English |
+|-------|---------|
+| השכלה מקצועית | Professional Education |
+| הנדסאי חשמל ואלקטרוניקה - מכללת "אדיר במרום" בחיספין שבגולן. | Electrical & Electronics Technician - "Adir BaMarom" College in Hispin, Golan. |
+| טכנאות סלולרית - קורס נוסף. | Cellular Technician - additional course. |
+| לומד תכנות Fullstack ולקראת סיום הלימודים. | Studying Fullstack programming, nearing completion. |
+| לומד עיצוב גרפי. | Studying graphic design. |
+| תחומים נוספים - לומד המון תחומים נוספים מתוך סקרנות אמיתית: MBA עסקים, השקעות באלגוריתמים ועוד. | Additional fields - learns many additional fields out of genuine curiosity: Business MBA, algorithmic investing, and more. |
+
+---
+
+## רקע צבאי וחינוכי | Military & Educational Background
+
+| עברית | English |
+|-------|---------|
+| רקע צבאי וחינוכי | Military & Educational Background |
+| שירות צבאי: חיל האוויר במסלול "נצח" כחשמלאי (ברמת דוד). | Military service: Air Force in the "Netzach" track as an electrician (at Ramat David). |
+| בית ספר יסודי: "כינור דוד" בבני ברק. | Elementary school: "Kinor David" in Bnei Brak. |
+| תיכון: ישיבה תיכונית "אור משה" צפון תל אביב. | High school: "Or Moshe" Yeshiva High School, North Tel Aviv. |
 
 ---
 
