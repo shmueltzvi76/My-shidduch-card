@@ -76,7 +76,7 @@
 | עברית | English |
 |-------|---------|
 | מה באמת מייחד אותו? | What truly makes him unique? |
-| מי ששוחח איתו יעיד - הוא חדור מטרה, סקרן ומשתדל תמיד לרדת לשורש העניין. איש אשכולות אמיתי, מקשיב ומבין לעומק. הידע שצובר לא נשאר תיאורטי - הוא בונה ממנו תפיסת עולם ודרך חיים שלמה. מחפש בת זוג שתוכל להעריך ולהתחבר לעומק הזה. | Those who have spoken with him will attest - he is driven by purpose, curious, and always strives to get to the root of the matter. A true Renaissance man, he listens and understands deeply. The knowledge he acquires doesn't remain theoretical - he builds from it a complete worldview and way of life. He seeks a partner who can appreciate and connect with this depth. |
+| מי ששוחח איתו יעיד - הוא חדור מטרה, סקרן ומשתדל תמיד לרדת לשורש העניין. איש אשכולות אמיתי, מקשיב ומבין לעומק. הידע שצובר לא נשאר תיאורטי - הוא בונה ממנו תפיסת עולם ודרך חיים שלמה. מחפש בת זוג שתוכל להעריך ולהתחבר לעומק הזה. | Those who have spoken with him will attest - he is driven by purpose, curious, and always strives to get to the root of the matter. A true man of many talents, he listens and understands deeply. The knowledge he acquires doesn't remain theoretical - he builds from it a complete worldview and way of life. He seeks a partner who can appreciate and connect with this depth. |
 | שמואל צבי רואה את כל התחומים האלה כדרך לעבוד את ה'. | Shmuel Tzvi sees all these fields as a way to serve Hashem. |
 
 ---
@@ -99,7 +99,7 @@
 | שיער | Hair |
 | חום | Brown |
 | זקן | Beard |
-| קצר ומעט ג'ינג'י | Short with a slight ginger tint |
+| קצר ומעט ג'ינג'י | Short and ginger |
 | גוון עור | Skin Tone |
 | בהיר | Fair |
 | עדה | Heritage |
@@ -107,7 +107,7 @@
 | מזל | Zodiac |
 | דגים (ו') | Pisces |
 | סגנון לבוש | Dress Style |
-| מכובד ומטופח (חליפה וכובע בשבתות, חגים ואירועים) | Respectable and well-groomed (suit and hat on Shabbat, holidays, and special occasions) |
+| מכובד ומטופח (חליפה וכובע בשבתות, חגים ואירועים) | Respectable and well-groomed (suit and fedora on Shabbat / events) |
 | שפות | Languages |
 | עברית ואנגלית | Hebrew and English |
 | טלפון | Phone |
@@ -134,6 +134,75 @@
 | מסודר ונקי - אוהב ומעריך סדר וניקיון. | Organized and clean - loves and appreciates order and cleanliness. |
 | ישר ואמין - מוכן להפסיד בשביל היושר. | Honest and trustworthy - willing to lose for the sake of integrity. |
 | מנומס - שם לב לאיך שהוא מתנהג ומשתדל לא לגרום צער לזולת. | Polite - mindful of his behavior and strives not to cause others distress. |
+
+---
+
+# סקשן 3: תחומי עניין ותחביבים | Section 3: Interests & Hobbies
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| תחומי עניין ותחביבים | Interests & Hobbies |
+
+---
+
+## המצאה ופיתוח | Invention & Development
+
+| עברית | English |
+|-------|---------|
+| המצאה ופיתוח | Invention & Development |
+| אוהב לפתור בעיות ובפרט לפתח מכשירים וכלים בתחום הטכנולוגי. יש לו חשיבה יצירתית שמחפשת פתרונות מעשיים. | Loves solving problems, especially developing devices and tools in the technological field. He has creative thinking that seeks practical solutions. |
+
+---
+
+## מוזיקה ונגינה | Music & Playing
+
+| עברית | English |
+|-------|---------|
+| מוזיקה ונגינה | Music & Playing |
+| למד בילדותו לנגן על גיטרה ואורגן, ומעוניין לחזור לנגן אחרי החתונה. בקרוב יתחיל ללמוד על כינור סיני ואח"כ קלאסי. | Learned to play guitar and organ as a child, and wants to return to playing after marriage. Soon he will start learning Chinese violin and then classical. |
+| אוהב לשמוע מוזיקה, במיוחד מנגינות - המנגינות העצובות מרגשות אותו ומכניסות אותו להתבודדות וחשבון נפש. | Loves listening to music, especially melodies - sad melodies move him and bring him to introspection and self-reflection. |
+
+---
+
+## לימוד וקריאה | Learning & Reading
+
+| עברית | English |
+|-------|---------|
+| לימוד וקריאה | Learning & Reading |
+| שמואל צבי ממש איש אשכולות. | Shmuel Tzvi is truly a man of many talents. |
+| הוא נהנה ללמוד ספרי קודש, מדע, טכנולוגיה, אומנות ועוד. | He enjoys learning holy books, science, technology, art, and more. |
+| הוא משתדל ללמוד ב-25 ספרים שונים כל יום. | He strives to learn from 25 different books every day. |
+| זה נשמע המון... אבל הוא באמת לומד ממקום של סקרנות עמוקה ללא גבולות. | It sounds like a lot... but he truly learns from a place of deep, boundless curiosity. |
+
+---
+
+## ספורט וכושר | Sports & Fitness
+
+| עברית | English |
+|-------|---------|
+| ספורט וכושר | Sports & Fitness |
+| משתדל להתאמן שלוש פעמים בשבוע (calisthenics) עם אחיו יצחק אלחנן. | Strives to work out three times a week (calisthenics) with his brother Yitzchak Elchanan. |
+| אוהב לשחות, לשחק כדורגל וכדורסל. חשוב לו להיות בריא ופעיל. | Loves swimming, playing soccer and basketball. Being healthy and active is important to him. |
+
+---
+
+## שחמט | Chess
+
+| עברית | English |
+|-------|---------|
+| שחמט | Chess |
+| נהנה לשחק ולאתגר את עצמו. | Enjoys playing and challenging himself. |
+
+---
+
+## טיולים ופעילות אקסטרים | Hiking & Extreme Activities
+
+| עברית | English |
+|-------|---------|
+| טיולים ופעילות אקסטרים | Hiking & Extreme Activities |
+| אוהב לאתגר את עצמו בפעילויות בטוחות אך ממריצות. | Loves challenging himself with safe but exhilarating activities. |
 
 ---
 
