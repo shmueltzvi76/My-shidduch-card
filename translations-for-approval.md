@@ -321,7 +321,7 @@
 
 | עברית | English |
 |-------|---------|
-| שמואל צבי הוא ממציא ויזם בנשמה. הוא מנהל מספר פרויקטים במקביל, כולם ברמה גבוהה: | Shmuel Tzvi is an inventor and entrepreneur at heart. He manages several projects simultaneously, all at a high level: |
+| שמואל צבי הוא ממציא ויזם בנשמה. הוא מנהל מספר פרויקטים במקביל, כולם ברמה גבוהה: | Shmuel Tzvi is an inventor and entrepreneur at mind & heart. He manages several projects simultaneously, all at a high level: |
 
 ---
 
@@ -332,7 +332,7 @@
 | פעילויות עסקיות ומקצועיות | Business & Professional Activities |
 | עבודה קבועה - אחזקה של בית כנסת (פעמיים בשבוע). | Regular job - synagogue maintenance (twice a week). |
 | סטארט-אפ בתחום בריאות הפה - מייסד וחלק מהפיתוח. | Oral health startup - founder and part of development. |
-| מהנדס מכונות - עובד בעסק משפחתי לבניית בתים על גלגלים. | Mechanical engineer - works in family business building tiny homes on wheels. |
+| מהנדס מכונות - עובד בעסק משפחתי לבניית בתים על גלגלים. | Working in Mechanical Engineering and Design at a family-owned Tiny House business. |
 | מורה לשחמט - הוראה פרטית, מתכנן לפתוח חוג לילדים ונערים בקצרין ובחד נס. | Chess teacher - private tutoring, planning to open classes for children and teens in Katzrin and Had Nes. |
 | פרילנסר - פרויקטים שונים בתחום הטכנולוגי. | Freelancer - various projects in the tech field. |
 
@@ -368,6 +368,109 @@
 | עברית | English |
 |-------|---------|
 | הוא אמר לי אישית: "אני עבד רק של בורא עולם ולא של אף אחד מלבדו." | He told me personally: "I am a servant only of the Creator of the world and no one else." |
+
+---
+
+# סקשן 7: מה שמואל צבי מחפש | Section 7: What Shmuel Tzvi is Looking For
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| מה שמואל צבי מחפש | What Shmuel Tzvi is Looking For |
+
+---
+
+## ציטוט פתיחה | Opening Quote
+
+| עברית | English |
+|-------|---------|
+| "אני מחפש את האחת והיחידה" | "I am looking for the one and only" |
+| מישהי שתשלים אותי ושאיתה אוכל לבנות בית תורני, אוהב, תומך ומכיל המבוסס על דוגמה אישית. שיחד נוכל לבנות קשר עמוק ורחב שיאפשר לנו להרגיש את רגשות אחד השני, לשמוח בשמחת השני ולכאוב את כאבו באמת. | Someone who will complete me, with whom I can build a Torah home - loving, supportive, and accepting, based on personal example. Together we can build a deep and broad connection that will allow us to feel each other's emotions, rejoice in each other's joy, and truly share in each other's pain. |
+
+---
+
+## הערה חשובה | Important Note
+
+| עברית | English |
+|-------|---------|
+| חשוב לו לציין: עדפויותיו הן תמונת המצב האידיאלית, אך ההתאמה האמיתית והחיבור חשובים לו יותר מכל פרט חיצוני. | Important to note: His preferences represent the ideal picture, but true compatibility and connection are more important to him than any external detail. |
+
+---
+
+## פרטים בסיסיים | Basic Details
+
+| עברית | English |
+|-------|---------|
+| פרטים בסיסיים | Basic Details |
+| גיל | Age |
+| 18-26 | 18-26 |
+| גובה | Height |
+| 162-175 ס"מ | 162-175 cm (5'4"-5'9") |
+| רמה דתית | Religious Level |
+| חרדית / דתי לאומי תורני מאוד | Charedi / Very religious Dati Leumi |
+
+---
+
+## מבנה גוף ומראה חיצוני | Body Type & Appearance
+
+| עברית | English |
+|-------|---------|
+| מבנה גוף ומראה חיצוני | Body Type & Appearance |
+| מבנה גוף: רזה - אתלטית/בכושר, נאה ומטופחת. | Body type: Slim - athletic/fit, pretty and well-groomed. |
+| מאוד חשוב לו שאשתו תהיה בהירה עור ושיער (בלונדיני או ג'ינג'י). | Very important to him that his wife be fair-skinned with light hair (blonde or ginger). |
+| *מגיל קטן הוא שם לב שלזה הוא נמשך ולאורך הפגישות שעשה זה רק התחזק אצלו. | *From a young age he noticed this is what he's attracted to, and throughout his dates this has only strengthened. |
+
+---
+
+## תכונות אופי | Character Traits
+
+| עברית | English |
+|-------|---------|
+| תכונות אופי | Character Traits |
+| שמואל צבי הוא אדם מאוד ערכי, יסודי ובעל חזון. לכן חשוב לו התאמה במישורים הבאים: | Shmuel Tzvi is a very principled, thorough person with vision. Therefore, compatibility in the following areas is important to him: |
+| בעלת לב טוב ועין טובה - כי גם הוא כזה. | Kind-hearted with a good eye - because he is too. |
+| מחוברת לתורה ולמצוות - קובעת עיתים ללימוד תורה, יש לה רבנית/רב. | Connected to Torah and mitzvot - sets fixed times for Torah study, has a Rabbanit/Rav. |
+| צנועה פנימית וחיצונית - כי הוא מאמין בזה בתכלית. | Modest internally and externally - because he believes in this completely. |
+| רוצה לחבוש כיסוי ראש מלא - חשוב: לא פאה. | Wants to wear a full head covering - important: not a wig. |
+| משפחתית, עדינה ואוהבת ילדים - כי המשפחה במרכז חייו. | Family-oriented, gentle, and loves children - because family is central to his life. |
+| שמחה, מאורגנת, מסודרת, נקייה - כי גם הוא כזה. | Joyful, organized, orderly, clean - because he is too. |
+| חכמה, נבונה, סקרנית ובעלת משמעת עצמית - כי הוא מחפש שותפה אמיתית. | Wise, discerning, curious, and self-disciplined - because he's looking for a true partner. |
+| ממוקדת במטרותיה - אחת ששואפת ופועלת תמיד להשתפר. | Goal-oriented - one who aspires and acts constantly to improve. |
+
+---
+
+## הפנימיות שהוא מחפש | The Inner Qualities He Seeks
+
+| עברית | English |
+|-------|---------|
+| הפנימיות שהוא מחפש | The Inner Qualities He Seeks |
+| אשת אשכולות | A woman of many talents (Eshet Eshkolot) |
+| מישהי שאוהבת ללמוד, להתפתח ולהעשיר את עצמה מתוך תשוקה אמיתית - בתחומים רבים: תורה, מדעים, אומנות. לא בהכרח בשביל תעודה או קריירה - אלא בשביל אהבת הידע עצמו. | Someone who loves to learn, develop, and enrich herself with genuine passion - in many fields: Torah, sciences, art. Not necessarily for a certificate or career - but for the love of knowledge itself. |
+| חינוך ביתי - פתוחה לרעיון של חינוך ביתי ומעוניינת לנסות (זה עקרוני ומרכזי בחזון שלו). | Homeschooling - open to the idea of homeschooling and interested in trying (this is fundamental and central to his vision). |
+| נטייה שכלית - מישהי שתוכל לנהל איתו שיחות מעמיקות (הוא יותר שכלי מרגשי). | Intellectual inclination - someone who can have deep conversations with him (he is more intellectual than emotional). |
+| מתמודדת עם אתגרים - לוקחת אותם בקלות ובנועם. | Handles challenges - takes them with ease and grace. |
+| תודעה בריאותית - לא מעשנת, אוכלת בריא, מתאמנת או שומרת על כושר גופני. | Health conscious - non-smoker, eats healthy, exercises or maintains physical fitness. |
+
+---
+
+## עדיפויות (לא חובה) | Preferences (Not Required)
+
+| עברית | English |
+|-------|---------|
+| עדיפויות (לא חובה) | Preferences (Not Required) |
+| רקע ולימודים | Background & Education |
+| עדיפות ללימודים בסמינר או במדרשה | Preference for seminary or midrasha studies |
+| רקע משפחתי | Family Background |
+| עדיפות למשפחה חרדית | Preference for Charedi family |
+| תחומי עניין | Areas of Interest |
+| טכנולוגיה, עיצוב, מדעים, חינוך | Technology, design, sciences, education |
+| מוצא | Origin |
+| עדיפות לאמריקאית / רוסית | Preference for American / Russian |
+| אזור מגורים | Residential Area |
+| עדיפות לצפון הארץ (אך גמיש) | Preference for northern Israel (but flexible) |
+| שפות | Languages |
+| עדיפות לדוברת אנגלית שפת אם ועברית | Preference for native English speaker and Hebrew |
 
 ---
 
