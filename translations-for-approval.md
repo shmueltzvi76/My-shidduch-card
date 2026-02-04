@@ -474,4 +474,218 @@
 
 ---
 
-**אנא אשר סקשן זה לפני שנמשיך לסקשן הבא.**
+# סקשן 8: החזון המשפחתי - חינוך ביתי | Section 8: Family Vision - Homeschooling
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| החזון המשפחתי - חינוך ביתי | Family Vision - Homeschooling |
+
+---
+
+## ציטוט פתיחה | Opening Quote
+
+| עברית | English |
+|-------|---------|
+| איך שמואל צבי רואה חינוך ביתי: | How Shmuel Tzvi sees homeschooling: |
+| "כל ילד הוא כמו אבן יקרה ייחודית. בפס ייצור - כל האבנים מקבלות את אותו הליטוש, אותה המסגרת. אצל תכשיטן - כל אבן נבחנת לעומק, מקבלת את החיתוך והליטוש המדויקים שיוציאו ממנה את המקסימום. חינוך ביתי מאפשר להורים להיות אותם 'תכשיטנים' - להתאים לכל ילד את החינוך המושלם עבורו." | "Every child is like a unique gemstone. On a production line - every stone gets the same polish, the same setting. With a jeweler - each stone is examined deeply, receiving the precise cut and polish that will bring out its maximum potential. Homeschooling allows parents to be those 'jewelers' - to tailor the perfect education for each child." |
+| שמואל צבי מתכונן לנושא זה כבר שנים - לומד, חוקר ומתייעץ עם רבנים. זו לא החלטה של רגע אלא חזון מגובש עם הבנה עמוקה של המשמעות והאחריות. | Shmuel Tzvi has been preparing for this topic for years - studying, researching, and consulting with Rabbis. This is not a spur-of-the-moment decision but a well-formed vision with deep understanding of the meaning and responsibility. |
+
+---
+
+## הגדרה | Definition
+
+| עברית | English |
+|-------|---------|
+| חינוך ביתי (Homeschooling) הוא גישה חינוכית שבה ההורים לוקחים אחריות מלאה על חינוך ילדיהם, תוך לימוד והתפתחות בבית ובסביבה הטבעית. | Homeschooling is an educational approach in which parents take full responsibility for their children's education, learning and developing at home and in the natural environment. |
+| חשוב להבהיר: זו לא גישה שבה ההורים בבית 24/7 ורק בתפקיד מחנכים. זו גישה גמישה שבה הבית והחינוך במקום ראשון, ויש גמישות לשני ההורים לעבוד, ללמוד ולהתפתח. | Important to clarify: This is not an approach where parents are home 24/7 only in the role of educators. This is a flexible approach where home and education come first, with flexibility for both parents to work, study, and develop. |
+
+---
+
+## למה בכלל חינוך ביתי? | Why homeschooling at all?
+
+| עברית | English |
+|-------|---------|
+| למה בכלל חינוך ביתי? | Why homeschooling at all? |
+| "להחזיר עטרה ליושנה בחינוך" | "To restore the crown of education to its former glory" |
+| פעם היו ללומדים רב מובהק שלימדם ועיצב את האישיות שלהם, האב היה ממנה מלמד רק מפאת חוסר יכולת. | In the past, learners had a distinguished Rabbi who taught them and shaped their personality; the father would appoint a teacher only out of inability to do so himself. |
+| אחריות על החינוך | Responsibility for education |
+| ההורים המחנכים אחראים על מה הילדים לומדים, איך הם לומדים, ובאיזה קצב - וכך מספקים להם מעטפת חינוכית, ערכית ולימודית מותאמת אישית ליכולת ולמבנה הנפש של כל ילד. | The educating parents are responsible for what the children learn, how they learn, and at what pace - thus providing them with a personalized educational, values-based, and academic framework tailored to the ability and personality of each child. |
+
+---
+
+## תמיכה משפחתית | Family Support
+
+| עברית | English |
+|-------|---------|
+| תמיכה משפחתית | Family Support |
+| אמו ושני אחיו בדעה זו - שחינוך ביתי הוא הדרך הנכונה. הם מתכננים: | His mother and two brothers share this view - that homeschooling is the right way. They plan to: |
+| לעזור אחד לשני בלימוד, בפעילויות ובהדרכה. | Help each other with learning, activities, and guidance. |
+| לשתף משאבים - חומרי לימוד, כלים, ציוד. | Share resources - learning materials, tools, equipment. |
+| לתמוך זה בזה בקשיים ובהצלחות. | Support each other in difficulties and successes. |
+| כל אחד ילמד את מה שהוא הכי טוב בו לכל הילדים. | Each one will teach what they are best at to all the children. |
+
+---
+
+## מה זה דורש מבת הזוג? | What does this require from a partner?
+
+| עברית | English |
+|-------|---------|
+| מה זה דורש מבת הזוג? | What does this require from a partner? |
+| 1. כוח ואמונה - אמונה בצדקת הדרך, כוח פנימי לעמוד בלחץ חברתי, יכולת להתמודד עם ביקורת. | 1. Strength and faith - faith in the righteousness of the path, inner strength to withstand social pressure, ability to handle criticism. |
+| 2. אשת אשכולות - אישה שאוהבת ללמוד, להתפתח ולהעשיר את עצמה. ככל שהאישה יודעת יותר, כך היא יכולה להעניק יותר לילדים. | 2. A woman of many talents (Eshet Eshkolot) - a woman who loves to learn, develop, and enrich herself. The more the woman knows, the more she can give to the children. |
+| 3. גמישות בעבודה - העבודה צריכה להיות גמישה, ניתנת לעשייה מהבית לפחות חלק, והעבודה במקום 3-4 בסדר העדיפויות. | 3. Work flexibility - work needs to be flexible, at least partially doable from home, with work being 3rd-4th in the priority order. |
+
+---
+
+## יתרונות ואתגרים | Advantages & Challenges
+
+| עברית | English |
+|-------|---------|
+| יתרונות ואתגרים | Advantages & Challenges |
+| **יתרונות:** | **Advantages:** |
+| קשר עמוק עם הילדים | Deep connection with the children |
+| ההורים אחראים על החינוך | Parents are responsible for education |
+| גמישות מלאה | Full flexibility |
+| הערכים שלנו | Our values |
+| פחות לחץ | Less pressure |
+| **אתגרים:** | **Challenges:** |
+| לחץ חברתי | Social pressure |
+| זמן ומסירות | Time and dedication |
+| מציאת פרנסה גמישה | Finding flexible income |
+| ארגון חברה לילדים | Organizing social life for children |
+| ספק עצמי | Self-doubt |
+
+---
+
+## הסוד להצלחה | The Secret to Success
+
+| עברית | English |
+|-------|---------|
+| הסוד להצלחה | The Secret to Success |
+| אמונה בדרך, מסירות, גמישות, תמיכה משפחתית | Faith in the path, dedication, flexibility, family support |
+| "בכל מקום של ספק לשאול את הרב" | "In every place of doubt, ask the Rabbi" |
+
+---
+
+# סקשן 9: לסיכום | Section 9: Summary
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| לסיכום | Summary |
+
+---
+
+## תוכן הסיכום | Summary Content
+
+| עברית | English |
+|-------|---------|
+| שמואל צבי הוא בחור באמת מיוחד. לא מיוחד בסגנון "אה כן, חמוד", אלא מיוחד בסגנון שפעם בכמה שנים פוגשים מישהו כזה. | Shmuel Tzvi is truly a special young man. Not special in the "oh yeah, cute" way, but special in the way that you meet someone like him once every few years. |
+| יש לו חזון ברור של מי הוא רוצה להיות ואיך הוא רוצה לחיות. והוא לא מחכה שהחיים יקרו לו - הוא פשוט עושה. כל פרויקט שהוא נוגע בו, הוא עושה אותו ברמה הכי גבוהה שאפשר. | He has a clear vision of who he wants to be and how he wants to live. And he doesn't wait for life to happen to him - he just does it. Every project he touches, he does at the highest level possible. |
+| אבל מעבר לכל הכישורים והפרויקטים - הוא פשוט בן אדם טוב. מי שמבלה איתו זמן מרגיש את זה. הוא נותן, מקשיב, אכפת לו. והוא ישר - בעולם שלפעמים חסר יושר, זה משהו ממש נדיר. | But beyond all the skills and projects - he's simply a good person. Anyone who spends time with him feels it. He gives, he listens, he cares. And he's honest - in a world that sometimes lacks honesty, that's something truly rare. |
+
+---
+
+## מה הוא באמת מחפש? | What is he truly looking for?
+
+| עברית | English |
+|-------|---------|
+| מה הוא באמת מחפש? | What is he truly looking for? |
+| הוא לא מחפש את "נורמלי" - הוא מחפש להגשים את השליחות שלו עם מישהי שתרצה לבנות איתו משהו מיוחד. | He's not looking for "normal" - he's looking to fulfill his mission with someone who wants to build something special with him. |
+| משפחה שחיה לפי ערכים עמוקים, מגדלת ילדים בדרך אמיתית (הארוכה שהיא קצרה), עם קשר עמוק ואהבה אמיתית אחד לשניה. | A family that lives by deep values, raises children the genuine way (the long way that is the short way), with a deep connection and true love for one another. |
+
+---
+
+## תיבת סגירה | Closing Box
+
+| עברית | English |
+|-------|---------|
+| אם את מכירה מישהי שאוהבת ללמוד, להתפתח, לחשוב, ובמקביל רוצה משפחה חמה, חיבור עמוק וחיים משמעותיים - זה הבחור בשבילה. | If you know someone who loves to learn, develop, think, and at the same time wants a warm family, a deep connection, and a meaningful life - this is the guy for her. |
+
+---
+
+# סקשן 10: פרטי קשר וממליצים | Section 10: Contact & References
+
+## כותרת הסקשן | Section Header
+
+| עברית | English |
+|-------|---------|
+| פרטי קשר וממליצים | Contact & References |
+
+---
+
+## כותרות תת-סקשנים | Sub-section Headers
+
+| עברית | English |
+|-------|---------|
+| משפחה | Family |
+| רבנים | Rabbis |
+| חברים | Friends |
+
+---
+
+## משפחה | Family
+
+| עברית | English |
+|-------|---------|
+| איילה שולמית כהן | Ayala Shulamit Cohen |
+| אמו של שמואל צבי | Shmuel Tzvi's mother |
+| מספרי טלפון נוספים | Additional phone numbers |
+| של בני המשפחה | of family members |
+| יישלחו לפי בקשה | Will be sent upon request |
+
+---
+
+## רבנים | Rabbis
+
+| עברית | English |
+|-------|---------|
+| הרב אליעד שמעון | Rav Eliad Shimon |
+| חבר ומלווה בשידוכים | Friend and shidduch advisor |
+| הרב משולם כהן | Rav Meshulam Cohen |
+| הרב שלו | His Rabbi |
+
+---
+
+## חברים | Friends
+
+| עברית | English |
+|-------|---------|
+| דוד תעיזי | David Taizi |
+| חברותא כיום בלימוד דרך תבונות | Current chavruta in Derech Tvunot study |
+| עידן אמסלם | Idan Amsalem |
+| חבר טוב | Good friend |
+| יהודה אילוז | Yehuda Iluz |
+| חבר טוב | Good friend |
+| יקיר רדא | Yakir Rada |
+| חברותא לשעבר | Former chavruta |
+| מצליח חילו | Matzliach Chilo |
+| חבר חדר מהישיבה | Roommate from Yeshiva |
+| אדיר אזראי | Adir Azrai |
+| חבר כ-13 שנים | Friend for about 13 years |
+
+---
+
+## כרטיס קשר | Contact Card
+
+| עברית | English |
+|-------|---------|
+| שמואל צבי כהן | Shmuel Tzvi Cohen |
+| טלפון: 053-931-1073 | Phone: 053-931-1073 |
+| מייל: shmueltzvi76@gmail.com | Email: shmueltzvi76@gmail.com |
+| כתובת: קצרין, רמת הגולן | Address: Katzrin, Golan Heights |
+
+---
+
+# תודה תחתונה | Thank You Footer
+
+| עברית | English |
+|-------|---------|
+| תודה על הקריאה! | Thank you for reading! |
+| תודה רבה שהקדשת מזמנך לקרוא את הכרטיס ולהכיר את שמואל צבי הוא מודה לך מכל הלב. | Thank you so much for dedicating your time to read this card and get to know Shmuel Tzvi. He is grateful to you from the bottom of his heart. |
+| אם את/ה מכיר/ה מישהי שאולי מתאימה, אשמח שתחברי בינינו. | If you know someone who might be a match, we would be happy if you could connect us. |
+| יישר כוח על העבודה החשובה שאת/ה עושה! | Yasher Koach for the important work you do! |
+| בהצלחה! | Good luck! |
