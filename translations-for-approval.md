@@ -450,7 +450,7 @@
 | חינוך ביתי - פתוחה לרעיון של חינוך ביתי ומעוניינת לנסות (זה עקרוני ומרכזי בחזון שלו). | Homeschooling - open to the idea of homeschooling and interested in trying (this is fundamental and central to his vision). |
 | נטייה שכלית - מישהי שתוכל לנהל איתו שיחות מעמיקות (הוא מאוד עמקן וסקרן). | Intellectual inclination - someone who can have deep conversations with him (he is intellectually curious). |
 | מתמודדת עם אתגרים - לוקחת אותם בקלות ובנועם. | Handles challenges - takes them with ease and grace. |
-| תודעה בריאותית - לא מעשנת, אוכלת בריא, מתאמנת או שומרת על כושר גופני. | Health conscious - non-smoker, eats healthy, exercises or maintains physical fitness. |
+| בעלת מודעות גבוהה לאורח חיים בריא - מקפידה על תזונה נכונה וכושר גופני ולא מעשנת. | prioritizes a healthy lifestyle and well-being, including fitness and nutrition. Non-smoker. |
 
 ---
 
@@ -466,7 +466,7 @@
 | תחומי עניין | Areas of Interest |
 | טכנולוגיה, עיצוב, מדעים, חינוך | Technology, design, sciences, education |
 | מוצא | Origin |
-| עדיפות לאמריקאית / רוסית | Preference for American / Russian |
+| עדיפות לרקע אמריקאי או רוסי. | Preference for American or Russian background.|
 | אזור מגורים | Residential Area |
 | עדיפות לצפון הארץ (אך גמיש) | Preference for northern Israel (but flexible) |
 | שפות | Languages |
