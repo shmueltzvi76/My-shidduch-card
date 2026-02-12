@@ -10,7 +10,7 @@
 | עברית | English |
 |-------|---------|
 | כרטיס שידוכים | Shidduch Card |
-| שמואל צבי כהן - בן 26 מקצרין | Shmuel Tzvi Cohen - Age 26, from Katzrin |
+| שמואל צבי כהן - בן 27 מקצרין | Shmuel Tzvi Cohen - Age 27, from Katzrin |
 
 ---
 
@@ -18,8 +18,8 @@
 
 | עברית | English |
 |-------|---------|
-| תודה רבה מראש על הקריאה! | Thank you so much for reading! |
-| שלום וברכה לשדכן/ית היקר/ה, | Dear Shadchan, |
+| תודה רבה מראש על הקריאה! | Thank you vert much for reading! |
+| שלום וברכה לשדכן/ית היקר/ה, | Dear Shadchan / reader, |
 | הכרטיס נבנה בקפידה כדי לעזור לך להכיר את שמואל צבי בצורה מעמיקה וכנה. | This card was carefully crafted to help you get to know Shmuel Tzvi in a deep and honest way. |
 
 ---
@@ -67,7 +67,7 @@
 
 | עברית | English |
 |-------|---------|
-| שמואל צבי מחבר בין עולמות - תורה ומדע, רוחניות וטכנולוגיה, עיון ומעשה. בעל חשיבה אנליטית עמוקה לצד רגישות אמיתית לזולת. לומד כרגע בכולל, מתכנת, ובעל חזון חינוכי. | Shmuel Tzvi bridges worlds - Torah and science, spirituality and technology, theory and practice. He possesses deep analytical thinking alongside genuine sensitivity to others. Currently learning in Kollel, programming, and has a vision for education. |
+| שמואל צבי מחבר בין עולמות - תורה ומדע, רוחניות וטכנולוגיה, עיון ומעשה. בעל חשיבה אנליטית עמוקה לצד רגישות אמיתית לזולת. לומד כרגע בכולל, מתכנת, ובעל חזון חינוכי לילדיו בע"ה. | Shmuel Tzvi bridges worlds - Torah and science, spirituality and technology, theory and practice. He possesses deep analytical thinking alongside genuine sensitivity to others. Currently learning in Kollel, programming, and has a vision for is kids education B"H. |
 
 ---
 
@@ -91,7 +91,7 @@
 | מקום מגורים | Residence |
 | קצרין, רמת הגולן | Katzrin, Golan Heights |
 | גובה | Height |
-| 170 ס"מ | 170 cm (5'7") |
+| 170 ס"מ | 170 cm (5'8") |
 | מבנה גוף | Build |
 | מחוטב ואתלטי | Fit and athletic |
 | עיניים | Eyes |
@@ -99,13 +99,13 @@
 | שיער | Hair |
 | חום | Brown |
 | זקן | Beard |
-| קצר ומעט ג'ינג'י | Short and ginger |
+| קצר ומעט ג'ינג'י | Short and a slightly ginger beard |
 | גוון עור | Skin Tone |
 | בהיר | Fair |
 | עדה | Heritage |
 | ספרדי (עיראקי-תימני) ללא המנטליות | Sephardi (Iraqi-Yemenite) without the typical mentality |
-| מזל | Zodiac |
-| דגים (ו') | Pisces |
+| מזל | Mazal (Zodiac) |
+| דגים (ו') | 6th of Adar (Pisces) |
 | סגנון לבוש | Dress Style |
 | מכובד ומטופח (חליפה וכובע בשבתות, חגים ואירועים) | Respectable and well-groomed (suit and fedora on Shabbat / events) |
 | שפות | Languages |
@@ -113,7 +113,7 @@
 | טלפון | Phone |
 | חכם עם הגנה | Smartphone with filter |
 | מצב בריאותי | Health Status |
-| תקין | Good |
+| תקין | Excellent |
 
 ---
 
