@@ -417,8 +417,8 @@
 | עברית | English |
 |-------|---------|
 | מבנה גוף ומראה חיצוני | Body Type & Appearance |
-| מבנה גוף: רזה - אתלטית/בכושר, נאה ומטופחת. | Body type: Slim - athletic/fit, pretty and well-groomed. |
-| מאוד חשוב לו שאשתו תהיה בהירה עור ושיער (בלונדיני או ג'ינג'י). | Very important to him that his wife be fair-skinned with light hair (blonde or ginger). |
+| מבנה גוף: רזה - אתלטית/בכושר, נאה ומטופחת. | Body type: Slim - athletic/fit Traits: Refined, ba'alat chen, and meticulously well-groomed.|
+| חשוב לו מאוד שאשתו תהיה בעלת חזות בהירה עם שיער בהיר (בלונד או אדמוני). |Preferences: He tends to lean towards a fairer look with lighter features (such as blonde or reddish hair).|
 | *מגיל קטן הוא שם לב שלזה הוא נמשך ולאורך הפגישות שעשה זה רק התחזק אצלו. | *From a young age he noticed this is what he's attracted to, and throughout his dates this has only strengthened. |
 
 ---
@@ -435,7 +435,7 @@
 | רוצה לחבוש כיסוי ראש מלא - חשוב: לא פאה. | Wants to wear a full head covering - important: not a wig. |
 | משפחתית, עדינה ואוהבת ילדים - כי המשפחה במרכז חייו. | Family-oriented, gentle, and loves children - because family is central to his life. |
 | שמחה, מאורגנת, מסודרת, נקייה - כי גם הוא כזה. | Joyful, organized, orderly, clean - because he is too. |
-| חכמה, נבונה, סקרנית ובעלת משמעת עצמית - כי הוא מחפש שותפה אמיתית. | Wise, discerning, curious, and self-disciplined - because he's looking for a true partner. |
+| חכמה, נבונה, סקרנית ובעלת משמעת עצמית - כי הוא מחפש שותפה שתשלים אותו בכל מובן. | Wise, discerning, curious, and self-disciplined—seeking a true partner to complement him on every level. |
 | ממוקדת במטרותיה - אחת ששואפת ופועלת תמיד להשתפר. | Goal-oriented - one who aspires and acts constantly to improve. |
 
 ---
@@ -448,7 +448,7 @@
 | אשת אשכולות | A woman of many talents (Eshet Eshkolot) |
 | מישהי שאוהבת ללמוד, להתפתח ולהעשיר את עצמה מתוך תשוקה אמיתית - בתחומים רבים: תורה, מדעים, אומנות. לא בהכרח בשביל תעודה או קריירה - אלא בשביל אהבת הידע עצמו. | Someone who loves to learn, develop, and enrich herself with genuine passion - in many fields: Torah, sciences, art. Not necessarily for a certificate or career - but for the love of knowledge itself. |
 | חינוך ביתי - פתוחה לרעיון של חינוך ביתי ומעוניינת לנסות (זה עקרוני ומרכזי בחזון שלו). | Homeschooling - open to the idea of homeschooling and interested in trying (this is fundamental and central to his vision). |
-| נטייה שכלית - מישהי שתוכל לנהל איתו שיחות מעמיקות (הוא יותר שכלי מרגשי). | Intellectual inclination - someone who can have deep conversations with him (he is more intellectual than emotional). |
+| נטייה שכלית - מישהי שתוכל לנהל איתו שיחות מעמיקות (הוא מאוד עמקן וסקרן). | Intellectual inclination - someone who can have deep conversations with him (he is intellectually curious). |
 | מתמודדת עם אתגרים - לוקחת אותם בקלות ובנועם. | Handles challenges - takes them with ease and grace. |
 | תודעה בריאותית - לא מעשנת, אוכלת בריא, מתאמנת או שומרת על כושר גופני. | Health conscious - non-smoker, eats healthy, exercises or maintains physical fitness. |
 
