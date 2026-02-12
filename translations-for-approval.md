@@ -243,10 +243,10 @@
 |-------|---------|
 | חזון ומטרות בחיים | Vision & Life Goals |
 | לימוד תורה - להגדיל את איכות, כמות ואורך הלימוד. | Torah learning - to increase the quality, quantity, and duration of learning. |
-| משפחה וחינוך - להיות שותף פעיל בחיי המשפחה ובחינוך ילדים בדרך ישראל סבא, עם דגש על חינוך ביתי לבנים. | Family & education - to be an active partner in family life and in educating children in the traditional Jewish way, with emphasis on homeschooling for sons. |
+| משפחה וחינוך - להיות שותף פעיל בחיי המשפחה ובחינוך ילדים בדרך ישראל סבא, עם דגש על חינוך ביתי לבנים. | Family & education - to be an active partner in family life and in educating children in the traditional Jewish way, with emphasis on homeschooling for his sons. |
 | פיתוח אישי ומקצועי - ללמוד מוהלות, הנדסת מכונות ועוד תחומים שיעשירו את עולמו ויכולותיו. | Personal & professional development - to learn mohel certification, mechanical engineering, and other fields that will enrich his world and abilities. |
 | עסקים - טיפול בעסקיו הקיימים והרחבתם. | Business - managing his existing businesses and expanding them. |
-| איזון - לשמור על איזון בריא בין כל התחומים מתוך הבנה שהכל נועד לשרת את עבודת ה'. | Balance - to maintain a healthy balance between all areas, understanding that everything is meant to serve Avodas Hashem. |
+| איזון - לשמור על איזון בריא בין כל התחומים מתוך הבנה שהכל נועד לשרת את עבודת ה'. | Balance - to maintain a healthy balance between all areas, understanding that everything is meant to serve  is Avodat Hashem. |
 
 ---
 
@@ -301,7 +301,7 @@
 | עברית | English |
 |-------|---------|
 | רקע צבאי וחינוכי | Military & Educational Background |
-| שירות צבאי: חיל האוויר במסלול "נצח" כחשמלאי (ברמת דוד). | Military service: Air Force in the "Netzach" track as an electrician (at Ramat David). |
+| שירות צבאי: חיל האוויר במסלול "נצח" כחשמלאי (ברמת דוד). | Military service: Air Force in the " Haredi - Netzach" track as an electrician (at Ramat David). |
 | בית ספר יסודי: "כינור דוד" בבני ברק. | Elementary school: "Kinor David" in Bnei Brak. |
 | תיכון: ישיבה תיכונית "אור משה" צפון תל אביב. | High school: "Or Moshe" Yeshiva High School, North Tel Aviv. |
 
