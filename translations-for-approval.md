@@ -99,7 +99,7 @@
 | שיער | Hair |
 | חום | Brown |
 | זקן | Beard |
-| קצר ומעט ג'ינג'י | Short and a slightly ginger beard |
+| קצר ומעט ג'ינג'י | Short and a slightly ginger |
 | גוון עור | Skin Tone |
 | בהיר | Fair |
 | עדה | Heritage |
@@ -418,8 +418,8 @@
 |-------|---------|
 | מבנה גוף ומראה חיצוני | Body Type & Appearance |
 | מבנה גוף: רזה - אתלטית/בכושר, נאה ומטופחת. | Body type: Slim - athletic/fit Traits: Refined, ba'alat chen, and meticulously well-groomed.|
-| חשוב לו מאוד שאשתו תהיה בעלת חזות בהירה עם שיער בהיר (בלונד או אדמוני). |Preferences: He tends to lean towards a fairer look with lighter features (such as blonde or reddish hair).|
-| *מגיל קטן הוא שם לב שלזה הוא נמשך ולאורך הפגישות שעשה זה רק התחזק אצלו. | *From a young age he noticed this is what he's attracted to, and throughout his dates this has only strengthened. |
+| העדפות: יש לו נטייה למראה בהיר עם תווי פנים ושיער בהירים (כגון בלונד או אדמוני).|Preferences: He tends to lean towards a fairer look with lighter features (such as blonde or reddish hair).|
+| *מגיל קטן הוא שם לב שלזה הוא נמשך ולאורך הפגישות זה רק התחזק אצלו. | *From a young age he noticed this is what he's attracted to, and throughout his dates this has only strengthened. |
 
 ---
 
@@ -450,7 +450,7 @@
 | חינוך ביתי - פתוחה לרעיון של חינוך ביתי ומעוניינת לנסות (זה עקרוני ומרכזי בחזון שלו). | Homeschooling - open to the idea of homeschooling and interested in trying (this is fundamental and central to his vision). |
 | נטייה שכלית - מישהי שתוכל לנהל איתו שיחות מעמיקות (הוא מאוד עמקן וסקרן). | Intellectual inclination - someone who can have deep conversations with him (he is intellectually curious). |
 | מתמודדת עם אתגרים - לוקחת אותם בקלות ובנועם. | Handles challenges - takes them with ease and grace. |
-| בעלת מודעות גבוהה לאורח חיים בריא - מקפידה על תזונה נכונה וכושר גופני ולא מעשנת. | prioritizes a healthy lifestyle and well-being, including fitness and nutrition. Non-smoker. |
+| מציבה בראש סדרי העדיפויות אורח חיים בריא, כולל הקפדה על כושר ותזונה נכונה. אינה מעשנת. | prioritizes a healthy lifestyle and well-being, including fitness and nutrition. Non-smoker. |
 
 ---
 
@@ -466,7 +466,7 @@
 | תחומי עניין | Areas of Interest |
 | טכנולוגיה, עיצוב, מדעים, חינוך | Technology, design, sciences, education |
 | מוצא | Origin |
-| עדיפות לרקע אמריקאי או רוסי. | Preference for American or Russian background.|
+| עדיפות לבחורה בעלת רקע חוצניקי (אמריקאי או רוסי). |preference for a girl with an international background (American/Anglo or Russian).|
 | אזור מגורים | Residential Area |
 | עדיפות לצפון הארץ (אך גמיש) | Preference for northern Israel (but flexible) |
 | שפות | Languages |
