@@ -1389,9 +1389,12 @@
         // Preload images for instant loading
         const photoSources = ['photo 1.png', 'photo 2.jpg', 'photo 3.png'];
         const preloadedImages = [];
+
+        // Preload with high priority
         photoSources.forEach(src => {
             const img = new Image();
             img.src = src;
+            img.decoding = 'async';
             preloadedImages.push(img);
         });
 
@@ -1403,36 +1406,33 @@
             if (isAnimating) return;
             isAnimating = true;
 
-            const photoCards = document.querySelectorAll('.photo-card');
             const imgs = document.querySelectorAll('.photo-card img');
 
-            // Smooth fade out
+            // Quick fade
             imgs.forEach(img => {
-                img.style.transition = 'opacity 0.25s ease';
-                img.style.opacity = '0.3';
+                img.style.transition = 'opacity 0.15s ease';
+                img.style.opacity = '0.2';
             });
 
             setTimeout(() => {
-                // Fix direction: right arrow (next) should show next image, left arrow (prev) should show previous
-                if (direction === 'right') {
+                // RIGHT arrow (❯): move images left, next image comes to center
+                // LEFT arrow (❮): move images right, previous image comes to center
+                if (direction === 'left') {
+                    // Clicking left arrow: previous image to center
                     photoOrder = [photoOrder[1], photoOrder[2], photoOrder[0]];
                 } else {
+                    // Clicking right arrow: next image to center
                     photoOrder = [photoOrder[2], photoOrder[0], photoOrder[1]];
                 }
 
-                // Update images from preloaded cache
+                // Update images instantly from cache
                 imgs.forEach((img, i) => {
                     img.src = preloadedImages[photoOrder[i]].src;
+                    img.style.opacity = '1';
                 });
 
-                // Smooth fade in
-                setTimeout(() => {
-                    imgs.forEach(img => {
-                        img.style.opacity = '';
-                    });
-                    isAnimating = false;
-                }, 50);
-            }, 250);
+                isAnimating = false;
+            }, 150);
         }
 
         // Photo Modal for zoom - only for center image
