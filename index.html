@@ -653,7 +653,7 @@
         
         <!-- Photos Section - Carousel -->
         <div class="carousel-container">
-            <button class="carousel-btn prev" onclick="shiftPhotos('right')">❮</button>
+            <button class="carousel-btn prev" onclick="shiftPhotos('left')">❮</button>
             <div class="photos-section" id="photoCarousel">
                 <div class="photo-card" onclick="openPhotoModal(this)">
                     <img src="photo 1.png" alt="תמונה 1">
@@ -665,7 +665,7 @@
                     <img src="photo 3.png" alt="תמונה 3">
                 </div>
             </div>
-            <button class="carousel-btn next" onclick="shiftPhotos('left')">❯</button>
+            <button class="carousel-btn next" onclick="shiftPhotos('right')">❯</button>
         </div>
 
         <!-- Photo Modal for Mobile -->
@@ -1404,47 +1404,48 @@
             isAnimating = true;
 
             const photoCards = document.querySelectorAll('.photo-card');
+            const imgs = document.querySelectorAll('.photo-card img');
 
-            // Add transition class for smooth animation
-            photoCards.forEach(card => {
-                card.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
-                card.style.opacity = '0.5';
-                card.style.transform = 'scale(0.95)';
+            // Smooth fade out
+            imgs.forEach(img => {
+                img.style.transition = 'opacity 0.25s ease';
+                img.style.opacity = '0.3';
             });
 
             setTimeout(() => {
-                if (direction === 'left') {
+                // Fix direction: right arrow (next) should show next image, left arrow (prev) should show previous
+                if (direction === 'right') {
                     photoOrder = [photoOrder[1], photoOrder[2], photoOrder[0]];
                 } else {
                     photoOrder = [photoOrder[2], photoOrder[0], photoOrder[1]];
                 }
 
                 // Update images from preloaded cache
-                const imgs = document.querySelectorAll('.photo-card img');
                 imgs.forEach((img, i) => {
                     img.src = preloadedImages[photoOrder[i]].src;
                 });
 
-                // Restore appearance
-                photoCards.forEach(card => {
-                    card.style.opacity = '1';
-                    card.style.transform = '';
-                });
-
+                // Smooth fade in
                 setTimeout(() => {
+                    imgs.forEach(img => {
+                        img.style.opacity = '';
+                    });
                     isAnimating = false;
-                }, 400);
-            }, 200);
+                }, 50);
+            }, 250);
         }
 
-        // Photo Modal for zoom (works on both mobile and desktop)
+        // Photo Modal for zoom - only for center image
         function openPhotoModal(card) {
-            const img = card.querySelector('img');
-            const modal = document.getElementById('photoModal');
-            const modalImg = document.getElementById('modalImage');
-            modalImg.src = img.src;
-            modal.classList.add('active');
-            document.body.style.overflow = 'hidden';
+            // Only allow zoom on center image (desktop) or any image (mobile)
+            if (window.innerWidth <= 768 || card.classList.contains('center')) {
+                const img = card.querySelector('img');
+                const modal = document.getElementById('photoModal');
+                const modalImg = document.getElementById('modalImage');
+                modalImg.src = img.src;
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
         }
 
         function closePhotoModal() {
