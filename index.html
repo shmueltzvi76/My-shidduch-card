@@ -156,9 +156,9 @@
         .photo-card img {
             height: 280px;
             width: auto;
-            aspect-ratio: 3/4;
+            aspect-ratio: 4/5;
             object-fit: cover;
-            object-position: top center;
+            object-position: center center;
             border-radius: var(--radius-sm);
             background: var(--bg-cream);
             box-shadow: var(--shadow-soft);
@@ -1415,13 +1415,13 @@
             });
 
             setTimeout(() => {
-                // RIGHT arrow (❯): move images left, next image comes to center
-                // LEFT arrow (❮): move images right, previous image comes to center
-                if (direction === 'left') {
-                    // Clicking left arrow: previous image to center
+                // RIGHT arrow (❯): clockwise rotation
+                // LEFT arrow (❮): counter-clockwise rotation
+                if (direction === 'right') {
+                    // Clockwise: right→center, center→left, left→right
                     photoOrder = [photoOrder[1], photoOrder[2], photoOrder[0]];
                 } else {
-                    // Clicking right arrow: next image to center
+                    // Counter-clockwise: left→center, center→right, right→left
                     photoOrder = [photoOrder[2], photoOrder[0], photoOrder[1]];
                 }
 
