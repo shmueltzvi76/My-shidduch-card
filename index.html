@@ -177,11 +177,7 @@
             border: 3px solid var(--secondary);
         }
 
-        .photo-card:not(.center):hover img {
-            filter: brightness(0.85) saturate(0.9);
-            opacity: 0.85;
-            transform: scale(1.02);
-        }
+        /* No hover effect on non-center images */
 
         /* Hide dots on desktop */
         .carousel-dots {
@@ -1415,13 +1411,14 @@
             });
 
             setTimeout(() => {
-                // RIGHT arrow (❯): clockwise rotation
-                // LEFT arrow (❮): counter-clockwise rotation
-                if (direction === 'right') {
-                    // Clockwise: right→center, center→left, left→right
+                // בעברית (RTL) הכיוונים הפוכים
+                // LEFT arrow (❮): בפועל מוביל ימינה - כיוון השעון
+                // RIGHT arrow (❯): בפועל מוביל שמאלה - נגד כיוון השעון
+                if (direction === 'left') {
+                    // כיוון השעון
                     photoOrder = [photoOrder[1], photoOrder[2], photoOrder[0]];
                 } else {
-                    // Counter-clockwise: left→center, center→right, right→left
+                    // נגד כיוון השעון
                     photoOrder = [photoOrder[2], photoOrder[0], photoOrder[1]];
                 }
 
