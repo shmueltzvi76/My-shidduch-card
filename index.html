@@ -60,7 +60,35 @@
             text-align: center;
             color: var(--text-muted);
             font-size: 1.15em;
-            margin-bottom: 30px;
+            margin-bottom: 15px;
+        }
+
+        /* Language Toggle */
+        .language-toggle {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .language-toggle a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 0.95em;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(26, 74, 94, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle a:hover {
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(26, 74, 94, 0.4);
         }
         
         /* Intro Box - Thank You */
@@ -629,8 +657,13 @@
 <body>
     <div class="container">
         <h1>💍 כרטיס שידוכים </h1>
-        <p class="subtitle">שמואל צבי כהן - בן 26 מקצרין</p>
-        
+        <p class="subtitle">שמואל צבי כהן - בן 27 מקצרין</p>
+
+        <!-- Language Toggle -->
+        <div class="language-toggle">
+            <a href="index-en.html">🌐 English Version</a>
+        </div>
+
         <!-- Intro Thank You Section -->
         <div class="intro-thank-you">
             <h2>🙏 תודה רבה מראש על הקריאה!</h2>
