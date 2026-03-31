@@ -65,7 +65,7 @@
 
         /* Language Toggle - Top Left Minimalist */
         .language-toggle {
-            text-align: left;
+            text-align: right; /* In RTL, right = visual left */
             margin-bottom: 15px;
         }
 
@@ -92,24 +92,31 @@
         /* Intro Box - Thank You */
         .intro-thank-you {
             background: linear-gradient(135deg, var(--bg-cream) 0%, #fff 100%);
-            padding: 25px;
+            padding: 20px;
             border-radius: var(--radius);
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             border: 2px solid var(--secondary);
             box-shadow: var(--shadow-soft);
+            line-height: 1.7;
         }
-        
+
         .intro-thank-you h2 {
             color: var(--primary);
             font-family: 'Noto Serif Hebrew', serif;
-            font-size: 1.5em;
-            margin-bottom: 15px;
+            font-size: 1.3em;
+            margin-bottom: 12px;
             text-align: center;
         }
-        
+
         .intro-thank-you p {
             color: var(--text-dark);
-            margin-bottom: 12px;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .intro-thank-you li {
+            margin-bottom: 5px;
+            font-size: 0.9em;
         }
         
         .intro-highlight {
@@ -664,19 +671,28 @@
 
         <!-- Intro Thank You Section -->
         <div class="intro-thank-you">
-            <h2>🙏 תודה רבה מראש על הקריאה!</h2>
+            <h2>🙏 תודה על הקריאה!</h2>
+
             <p>שלום וברכה לשדכן/ית היקר/ה,</p>
-            <p> הכרטיס נבנה בקפידה כדי לעזור לך להכיר את שמואל צבי בצורה מעמיקה וכנה.</p>
-            
+
+            <p>הכרטיס נבנה בקפידה כדי לעזור לך להכיר את שמואל צבי בצורה מעמיקה וכנה.</p>
+
+            <hr style="border: none; border-top: 1px solid var(--secondary); margin: 15px 0;">
+
             <div class="intro-highlight">
-                <strong>📖 איך לקרוא את הכרטיס?</strong><br>
-                הכרטיס מחולק לנושאים ברורים. לחץ/י על כל כותרת-נושא כדי לפתוח אותו.<br>
-                בתוך כל נושא יש <strong>כפתורי "הרחב"</strong> נוספים שמאפשרים לך לצלול עמוק יותר לכל נושא.<br>
-                קרא/י כמה שתרצה/י - מהמידע הבסיסי ועד לפרטים המעמיקים ביותר.
+                <strong>📖 איך לקרוא את הכרטיס?</strong>
+                <ul style="margin: 10px 0 0 0; padding-right: 20px;">
+                    <li>לחץ/י על כל <strong>כותרת נושא</strong> כדי לפתוח אותו</li>
+                    <li>השתמש/י ב<strong>כפתורי "הרחב"</strong> לפרטים נוספים</li>
+                    <li>קרא/י כמה שתרצה/י - מהבסיסי ועד המעמיק</li>
+                </ul>
             </div>
-            
+
+            <hr style="border: none; border-top: 1px solid var(--secondary); margin: 15px 0;">
+
             <p><strong>המטרה:</strong> למצוא את ההתאמה האמיתית - מישהי שחולקת את החזון, הערכים והשאיפות של שמואל צבי.</p>
-            <p style="text-align: center; margin-top: 15px;"><em>קריאה מהנה ובהצלחה!</em></p>
+
+            <p style="text-align: center; margin-top: 10px;"><em>קריאה מהנה ובהצלחה! 🍀</em></p>
         </div>
 
         <!-- Photos Section - Carousel -->
