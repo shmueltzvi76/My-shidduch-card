@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shidduch Card - Shmuel Tzvi Cohen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Noto+Serif+Hebrew:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a4a5e;
+            --primary-light: #2d7a9c;
+            --secondary: #c9a227;
+            --secondary-light: #e8c547;
+            --bg-light: #faf9f6;
+            --bg-cream: #f5f1e8;
+            --text-dark: #2c3e50;
+            --text-muted: #5a6c7d;
+            --accent-green: #2d6a4f;
+            --accent-coral: #e07a5f;
+            --shadow-soft: 0 4px 20px rgba(26, 74, 94, 0.1);
+            --shadow-hover: 0 8px 30px rgba(26, 74, 94, 0.15);
+            --radius: 16px;
+            --radius-sm: 10px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', 'Heebo', sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, var(--accent-green) 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: var(--text-dark);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-light);
+            padding: 40px;
+            border-radius: var(--radius);
+            box-shadow: 0 25px 80px rgba(0,0,0,0.25);
+        }
+        
+        h1 {
+            text-align: center;
+            color: var(--primary);
+            font-family: 'Noto Serif Hebrew', serif;
+            font-size: 2.6em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 1.15em;
+            margin-bottom: 30px;
+        }
+        
+        /* Intro Box - Thank You */
+        .intro-thank-you {
+            background: linear-gradient(135deg, var(--bg-cream) 0%, #fff 100%);
+            padding: 25px;
+            border-radius: var(--radius);
+            margin-bottom: 30px;
+            border: 2px solid var(--secondary);
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .intro-thank-you h2 {
+            color: var(--primary);
+            font-family: 'Noto Serif Hebrew', serif;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .intro-thank-you p {
+            color: var(--text-dark);
+            margin-bottom: 12px;
+        }
+        
+        .intro-highlight {
+            background: var(--secondary-light);
+            padding: 15px;
+            border-radius: var(--radius-sm);
+            margin: 15px 0;
+            border-right: 4px solid var(--secondary);
+        }
+        
+        /* Photos Section - Professional Carousel */
+        .carousel-container {
+            margin: 30px 0;
+            position: relative;
+            padding: 0 60px;
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            border: 3px solid white;
+            cursor: pointer;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(26, 74, 94, 0.35);
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+
+        .carousel-btn:hover {
+            background: var(--secondary);
+            transform: translateY(-50%) scale(1.1);
+            box-shadow: 0 6px 25px rgba(201, 162, 39, 0.4);
+        }
+
+        .carousel-btn:active {
+            transform: translateY(-50%) scale(0.95);
+        }
+
+        .carousel-btn.prev {
+            left: 0;
+        }
+
+        .carousel-btn.next {
+            right: 0;
+        }
+
+        .photos-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .photo-card {
+            text-align: center;
+            flex-shrink: 0;
+            cursor: pointer;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+        }
+
+        .photo-card img {
+            height: 280px;
+            width: auto;
+            aspect-ratio: 4/5;
+            object-fit: cover;
+            object-position: center center;
+            border-radius: var(--radius-sm);
+            background: var(--bg-cream);
+            box-shadow: var(--shadow-soft);
+            border: 2px solid #ccc;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            filter: brightness(0.75) saturate(0.85);
+            opacity: 0.7;
+            will-change: transform, opacity, filter;
+        }
+
+        .photo-card.center img {
+            height: 340px;
+            filter: brightness(1) saturate(1);
+            opacity: 1;
+            box-shadow: 0 15px 45px rgba(26, 74, 94, 0.3);
+            border: 3px solid var(--secondary);
+        }
+
+        /* No hover effect on non-center images */
+
+        /* Hide dots on desktop */
+        .carousel-dots {
+            display: none;
+        }
+
+        /* Mobile zoom modal */
+        .photo-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .photo-modal.active {
+            display: flex;
+        }
+
+        .photo-modal img {
+            max-width: 90%;
+            max-height: 85%;
+            object-fit: contain;
+            border-radius: var(--radius);
+            animation: zoomIn 0.3s ease;
+        }
+
+        .photo-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            color: white;
+            font-size: 2.5em;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        
+        /* Sections */
+        .section {
+            margin-bottom: 25px;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-soft);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 18px 25px;
+            font-size: 1.35em;
+            font-family: 'Noto Serif Hebrew', serif;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .section-header:hover {
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+        }
+        
+        .section-header .arrow {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.active .section-header .arrow {
+            transform: rotate(180deg);
+        }
+        
+        .section-content {
+            display: none;
+            padding: 25px;
+            border-top: 3px solid var(--secondary);
+            animation: slideDown 0.3s ease;
+        }
+        
+        .section.active .section-content {
+            display: block;
+        }
+        
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Expand Buttons Inside Sections */
+        .expand-btn {
+            background: var(--bg-cream);
+            padding: 15px 20px;
+            border-radius: var(--radius-sm);
+            margin: 12px 0;
+            cursor: pointer;
+            border: 2px solid var(--primary-light);
+            transition: all 0.3s ease;
+        }
+        
+        .expand-btn:hover {
+            background: var(--secondary-light);
+            border-color: var(--secondary);
+        }
+        
+        .expand-btn-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .expand-btn-content {
+            display: none;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 2px dashed var(--primary-light);
+        }
+        
+        .section-content p {
+            margin-bottom: 12px;
+        }
+        
+        .expand-btn-content p {
+            margin-bottom: 12px;
+        }
+        
+        .expand-btn-content p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .expand-btn.active .expand-btn-content {
+            display: block;
+        }
+
+        /* Minimalist style for basic info button */
+        .expand-btn.basic-info {
+            background: white;
+            border: 1px solid #e0e0e0;
+        }
+
+        .expand-btn.basic-info:hover {
+            background: #f8f8f8;
+            border-color: #d0d0d0;
+        }
+
+        .expand-btn.basic-info .expand-btn-header {
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        /* Basic Info Grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .info-item {
+            background: var(--bg-cream);
+            padding: 12px 15px;
+            border-radius: var(--radius-sm);
+            border-right: 3px solid var(--secondary);
+        }
+        
+        .info-label {
+            color: var(--text-muted);
+            font-size: 0.85em;
+            margin-bottom: 3px;
+        }
+        
+        .info-value {
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        
+        /* Text Styling */
+        .emphasis {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .emphasis-gold {
+            color: var(--secondary);
+            font-weight: 600;
+        }
+        
+        .emphasis-green {
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+        
+        .quote-box {
+            background: linear-gradient(135deg, var(--bg-cream) 0%, #fff 100%);
+            padding: 20px;
+            border-radius: var(--radius-sm);
+            margin: 15px 0;
+            border-right: 4px solid var(--secondary);
+            font-style: italic;
+            position: relative;
+        }
+        
+        .quote-box::before {
+            content: '"';
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 3em;
+            color: var(--secondary);
+            opacity: 0.3;
+            font-family: serif;
+        }
+        
+        /* Lists */
+        ul {
+            padding-right: 20px;
+            margin: 10px 0;
+        }
+        
+        li {
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+        
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+            margin: 15px 0;
+        }
+        
+        .contact-card {
+            background: var(--bg-cream);
+            padding: 18px;
+            border-radius: var(--radius-sm);
+            border: 2px solid var(--primary-light);
+            width: 100%;
+            min-height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .contact-card-full {
+            grid-column: 1 / -1;
+        }
+
+        .family-section-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: start;
+        }
+
+        .family-note-box {
+            background: linear-gradient(135deg, #f8f3e8 0%, #fff5e6 100%);
+            padding: 20px;
+            border-radius: var(--radius-sm);
+            border: 2px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 110px;
+        }
+
+        .contact-name {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .contact-role {
+            font-size: 0.85em;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        
+        .contact-phone {
+            color: var(--accent-green);
+            font-weight: 500;
+            direction: ltr;
+            text-align: center;
+        }
+        
+        /* Tables for Pros/Cons */
+        .table-scroll {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .pros-cons-table {
+            width: 100%;
+            min-width: 500px;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        .pros-cons-table th {
+            background: var(--primary);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .pros-cons-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        .pros-col {
+            background: #d4edda;
+        }
+        
+        .cons-col {
+            background: #fff3cd;
+        }
+        
+        /* Summary Box */
+        .summary-box {
+            background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary) 100%);
+            padding: 30px;
+            border-radius: var(--radius);
+            margin: 25px 0;
+            text-align: center;
+            color: var(--text-dark);
+        }
+        
+        .summary-box h3 {
+            font-family: 'Noto Serif Hebrew', serif;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        
+        /* Thank You Footer */
+        .thank-you-footer {
+            background: var(--bg-cream);
+            padding: 25px;
+            border-radius: var(--radius);
+            text-align: center;
+            margin-top: 25px;
+            border: 2px solid var(--primary-light);
+        }
+        
+        /* Highlighted Quote */
+        .highlight-quote {
+            background: var(--accent-green);
+            color: white;
+            padding: 15px 20px;
+            border-radius: var(--radius-sm);
+            margin: 15px 0;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .carousel-container {
+                padding: 0 10px;
+            }
+
+            .carousel-btn {
+                display: none;
+            }
+
+            .photos-section {
+                flex-direction: column;
+                gap: 20px;
+                max-width: 100%;
+                margin: 10px auto;
+            }
+
+            .photo-card {
+                cursor: pointer;
+            }
+
+            .photo-card img {
+                width: 100%;
+                max-width: 300px;
+                height: auto !important;
+                aspect-ratio: 3/4;
+                object-fit: cover;
+                filter: brightness(1) !important;
+                opacity: 1 !important;
+                border: 2px solid var(--secondary) !important;
+                box-shadow: var(--shadow-soft) !important;
+            }
+
+            /* First image - crop sides slightly for consistency */
+            .photo-card:first-child img {
+                object-position: center center;
+            }
+
+            .carousel-dots {
+                display: none;
+            }
+
+            .section-header {
+                font-size: 1.15em;
+                padding: 15px 18px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .family-section-wrapper {
+                display: block;
+            }
+
+            .family-note-box {
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💍 Shidduch Card </h1>
+        <p class="subtitle">Shmuel Tzvi Cohen - Age 27, from Katzrin</p>
+
+        <!-- Intro Thank You Section -->
+        <div class="intro-thank-you">
+            <h2>🙏 Thank you very much for reading!</h2>
+            <p>Dear Shadchan / reader,</p>
+            <p>This card was carefully crafted to help you get to know Shmuel Tzvi in a deep and honest way.</p>
+
+            <div class="intro-highlight">
+                <strong>📖 How to read this card?</strong><br>
+                The card is divided into clear topics. Click on each header to expand it.<br>
+                Within each topic, there are <strong>"Expand" buttons</strong> that allow you to dive deeper into each subject.<br>
+                Feel free to read as much or as little as you wish - from the basics to the deepest details.
+            </div>
+
+            <p><strong>The Goal:</strong> To find the true match - someone who shares Shmuel Tzvi's vision, values, and aspirations.</p>
+            <p style="text-align: center; margin-top: 15px;"><em>Enjoy reading and good luck!</em></p>
+        
+        <!-- Photos Section - Carousel -->
+        <div class="carousel-container">
+            <button class="carousel-btn prev" onclick="shiftPhotos('left')">❮</button>
+            <div class="photos-section" id="photoCarousel">
+                <div class="photo-card" onclick="openPhotoModal(this)">
+                    <img src="photo 1.png" alt="Photo 1">
+                </div>
+                <div class="photo-card center" onclick="openPhotoModal(this)">
+                    <img src="photo 2.jpg" alt="Photo 2">
+                </div>
+                <div class="photo-card" onclick="openPhotoModal(this)">
+                    <img src="photo 3.png" alt="Photo 3">
+                </div>
+            </div>
+            <button class="carousel-btn next" onclick="shiftPhotos('right')">❯</button>
+        </div>
+
+        <!-- Photo Modal for Mobile -->
+        <div class="photo-modal" id="photoModal" onclick="closePhotoModal()">
+            <span class="photo-modal-close">&times;</span>
+            <img src="" alt="Enlarged photo" id="modalImage">
+        </div>
+         <!-- Section 1: About Shmuel Tzvi -->
+        </div>
+        <div class="section" id="about">
+            <div class="section-header" onclick="toggleSection('about')">
+                <span>👤 About Shmuel Tzvi</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <p>Shmuel Tzvi bridges worlds - Torah and science, spirituality and technology, theory and practice. He possesses deep analytical thinking alongside genuine sensitivity to others. Currently learning in Kollel, programming, and has a vision for his kids education B"H.</p>
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 What truly makes him unique?</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Those who have spoken with him will attest - he is driven by purpose, curious, and always strives to get to the root of the matter. A true Polymath, he listens and understands deeply. The knowledge he acquires doesn't remain theoretical - he builds from it a complete worldview and way of life. He seeks a partner who can appreciate and connect with this depth.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis">Shmuel Tzvi sees all these fields as a way to serve Hashem.</span></p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn basic-info" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Basic Details</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <div class="info-label">Age</div>
+                                <div class="info-value">26</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Residence</div>
+                                <div class="info-value">Katzrin, Golan Heights</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Height</div>
+                                <div class="info-value">170 cm (5'8")</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Build</div>
+                                <div class="info-value">Fit and athletic</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Eyes</div>
+                                <div class="info-value">Green-hazel</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Hair</div>
+                                <div class="info-value">Brown</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Beard</div>
+                                <div class="info-value">Short and slightly ginger</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Skin Tone</div>
+                                <div class="info-value">Fair</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Heritage</div>
+                                <div class="info-value">Sephardi (Iraqi-Yemenite) without the typical mentality</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Mazal (Zodiac)</div>
+                                <div class="info-value">6th of Adar (Pisces)</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Dress Style</div>
+                                <div class="info-value">Respectable and well-groomed (suit and fedora on Shabbat / events)</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Languages</div>
+                                <div class="info-value">Hebrew and English</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Phone</div>
+                                <div class="info-value">Smartphone with filter</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Health Status</div>
+                                <div class="info-value">Excellent</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Character Traits</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <ul>
+                            <li><span class="emphasis">Kind-hearted and generous</span> - he has a strong capacity for giving and empathizing with others.</li>
+                            <li><span class="emphasis">Family-oriented</span> - prays for a large, warm, loving, and well-educated family.</li>
+                            <li><span class="emphasis">Joyful</span> - strives to be happy through gratitude to Hashem.</li>
+                            <li><span class="emphasis">Calm</span> - known for being cool-headed and able to lead even during unusual events.</li>
+                            <li><span class="emphasis">Patient</span> - excels in patience when dealing with technical matters.</li>
+                            <li><span class="emphasis">Good listener</span> - genuinely strives to listen to others.</li>
+                            <li><span class="emphasis">Ambitious</span> - constantly strengthening himself to utilize his full potential.</li>
+                            <li><span class="emphasis">Thoughtful, calculated, and wise</span> - "The end of a deed is first in thought."</li>
+                            <li><span class="emphasis">Thorough</span> - strives to be thorough in every field and situation.</li>
+                            <li><span class="emphasis">Organized and clean</span> - loves and appreciates order and cleanliness.</li>
+                            <li><span class="emphasis">Honest and trustworthy</span> - willing to lose for the sake of integrity.</li>
+                            <li><span class="emphasis">Polite</span> - mindful of his behavior and strives not to cause others distress.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Interests -->
+        <div class="section" id="interests">
+            <div class="section-header" onclick="toggleSection('interests')">
+                <span>🎨 Interests & Hobbies</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Invention & Development</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Loves solving problems, especially developing devices and tools in the technological field. He has creative thinking that seeks practical solutions.</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Music & Playing</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Learned to play guitar and organ as a child, and wants to return to playing after marriage. Soon he will start learning Chinese violin and then classical.</p>
+                        <p>Loves listening to music, especially melodies - sad melodies move him and bring him to "hitbodedut" and self-reflection.</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Learning & Reading 📚</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">Shmuel Tzvi is truly a Polymath.</span> He enjoys learning holy books, science, technology, art, and more. He strives to learn from <span class="emphasis-gold">25 different books every day</span>. It sounds like a lot... but he truly learns from a place of deep, boundless curiosity.</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Sports & Fitness 💪</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Strives to work out <span class="emphasis">three times a week</span> (calisthenics) with his brother Yitzchak Elchanan.</p>
+                        <p>Loves swimming, playing soccer and basketball. Being healthy and active is important to him.</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Chess ♟️</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Enjoys playing and challenging himself.</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Hiking & Extreme Activities</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Loves challenging himself with safe but exhilarating activities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Religious Outlook -->
+        <div class="section" id="religious">
+            <div class="section-header" onclick="toggleSection('religious')">
+                <span>🕎 Religious Outlook & Worldview</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Religious Level & Halacha</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">Religious level:</span> Charedi whose aspiration is to be like the great Rabbis. When he asks a Rabbi - the answer he receives is not merely a recommendation (as defined by Rav Yosef Ben Porat) and he strives to follow this path.</p>
+                        <p><span class="emphasis">Halacha:</span> Follows Rav Ovadia zt"l in halachic matters.</p>
+                        <p><span class="emphasis">Kashrut:</span> Keeps Mehadrin (minimizes consumption of non-Jewish milk powder).</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Prayer & Learning</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">Prayer:</span> Prays three times daily at the R' Abun synagogue in Katzrin.</p>
+                        <p><span class="emphasis">Learning:</span> Sets fixed times for Torah study - strives for a bit more than half the day (4 learning sessions).</p>
+                    </div>
+                </div>
+
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Vision & Life Goals</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <ul>
+                            <li><span class="emphasis-gold">Torah learning</span> - to increase the quality, quantity, and duration of learning.</li>
+                            <li><span class="emphasis-gold">Family & education</span> - to be an active partner in family life and in educating children in the traditional Jewish way, with emphasis on homeschooling for his sons.</li>
+                            <li><span class="emphasis-gold">Personal & professional development</span> - to learn mohel certification, mechanical engineering, and other fields that will enrich his world and abilities.</li>
+                            <li><span class="emphasis-gold">Business</span> - managing his existing businesses and expanding them.</li>
+                            <li><span class="emphasis-gold">Balance</span> - to maintain a healthy balance between all areas, understanding that everything is meant to serve Avodat Hashem.</li>
+                        </ul>
+
+                        <div class="quote-box" style="margin-top: 20px;">
+                            <p><strong>I'll reveal something fundamental about Shmuel Tzvi, his main goal, and I quote him:</strong></p>
+                            <p style="margin-top: 10px;">"To be ready for the Day of Judgment - to make the Creator happy that he and his family fulfilled themselves as they should and beyond.<br><br>Not to dwell on trivial matters but to use traits and talents to do good with every creature and thing.<br><br>To be a light to his surroundings and to bring the redemption closer."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Education -->
+        <div class="section" id="education">
+            <div class="section-header" onclick="toggleSection('education')">
+                <span>🎓 Education & Studies</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 Torah Studies</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>Studied for about three years at <span class="emphasis-gold">"Esh HaTalmud"</span> Yeshiva Gdolah in Jerusalem (Bayit Vagan).</p>
+                        <p style="margin-top: 10px;">Today he learns <span class="emphasis">half a day in Kollel</span> with his Rabbi's approval, investing in <span class="emphasis-gold">4 learning sessions daily</span>.</p>
+                        <p style="margin-top: 10px;">Learning is not just "another task in his day" - <span class="emphasis">it's what he connects to most deeply.</span></p>
+                        <p style="margin-top: 10px;">He greatly enjoys in-depth learning, and when he learns something, he tries to apply it as soon as possible rather than leaving it as just an idea. He learns in a very analytical style and always seeks to get to the root of matters.</p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 השכלה מקצועית</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <ul>
+                            <li><span class="emphasis">הנדסאי חשמל ואלקטרוניקה</span> - מכללת "אדיר במרום" בחיספין שבגולן.</li>
+                            <li>טכנאות סלולרית - קורס נוסף.</li>
+                            <li><span class="emphasis-gold">לומד תכנות Fullstack</span> ולקראת סיום הלימודים.</li>
+                            <li>לומד עיצוב גרפי.</li>
+                            <li>תחומים נוספים - לומד המון תחומים נוספים מתוך סקרנות אמיתית: MBA עסקים, השקעות באלגוריתמים ועוד.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 רקע צבאי וחינוכי</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">שירות צבאי:</span> חיל האוויר במסלול "נצח" כחשמלאי (ברמת דוד).</p>
+                        <p style="margin-top: 8px;"><span class="emphasis">בית ספר יסודי:</span> "כינור דוד" בבני ברק.</p>
+                        <p style="margin-top: 8px;"><span class="emphasis">תיכון:</span> ישיבה תיכונית "אור משה" צפון תל אביב.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5: Occupation -->
+        <div class="section" id="occupation">
+            <div class="section-header" onclick="toggleSection('occupation')">
+                <span>💼 עיסוק ויזמות</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <p>שמואל צבי הוא ממציא ויזם בנשמה. הוא מנהל מספר פרויקטים במקביל, כולם ברמה גבוהה:</p>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 פעילויות עסקיות ומקצועיות</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <ul>
+                            <li><span class="emphasis">עבודה קבועה</span> - אחזקה של בית כנסת (פעמיים בשבוע).</li>
+                            <li><span class="emphasis-gold">סטארט-אפ בתחום בריאות הפה</span> - מייסד וחלק מהפיתוח.</li>
+                            <li><span class="emphasis">מהנדס מכונות</span> - עובד בעסק משפחתי לבניית בתים על גלגלים.</li>
+                            <li><span class="emphasis">מורה לשחמט</span> - הוראה פרטית, מתכנן לפתוח חוג לילדים ונערים בקצרין ובחד נס.</li>
+                            <li><span class="emphasis">פרילנסר</span> - פרויקטים שונים בתחום הטכנולוגי.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 איך הוא מספיק?</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>זו השאלה שכולם שואלים... אבל הוא באמת משתדל לעשות הכל ברמה גבוהה.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis">הסוד?</span> ניהול זמן מדויק, התמקדות ומסירות.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis-gold">והכי חשוב עבורו - לימוד תורה שנמצא אצלו במקום הראשון</span> - הוא משתדל ללמוד 4 סדרי לימוד ביום.</p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 החזון העסקי 🎯</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>שמואל צבי רואה את העבודה והמלאכה כאמצעי כשהמטרה:</p>
+                        <ul>
+                            <li>לא "להישחק בעבודה" אלא <span class="emphasis">להיות החבר הכי טוב של אשתו</span>.</li>
+                            <li><span class="emphasis-gold">לחיות ולגדול עם הילדים</span>.</li>
+                            <li>לעבוד מספיק כדי להתפרנס חכם ובכבוד.</li>
+                            <li>לממש את עצמו.</li>
+                        </ul>
+                        <p style="margin-top: 15px;">העבודה אצלו היא <span class="emphasis">במקום 3-4 בסדר העדיפויות</span>.</p>
+                        <div class="quote-box">
+                            <p>הוא אמר לי אישית: "אני עבד רק של בורא עולם ולא של אף אחד מלבדו."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 6: What He's Looking For -->
+        <div class="section" id="looking-for">
+            <div class="section-header" onclick="toggleSection('looking-for')">
+                <span>💝 מה שמואל צבי מחפש</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="quote-box">
+                    <p><strong>"אני מחפש את האחת והיחידה"</strong></p>
+                    <p style="margin-top: 10px;">מישהי שתשלים אותי ושאיתה אוכל לבנות בית תורני, אוהב, תומך ומכיל המבוסס על דוגמה אישית. שיחד נוכל לבנות קשר עמוק ורחב שיאפשר לנו להרגיש את רגשות אחד השני, לשמוח בשמחת השני ולכאוב את כאבו באמת.</p>
+                </div>
+                
+                <p style="margin-top: 15px; font-style: italic; color: var(--text-muted);">חשוב לו לציין: עדפויותיו הן תמונת המצב האידיאלית, אך ההתאמה האמיתית והחיבור חשובים לו יותר מכל פרט חיצוני.</p>
+                
+                <div class="expand-btn basic-info" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 פרטים בסיסיים</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <div class="info-label">גיל</div>
+                                <div class="info-value">18-26</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">גובה</div>
+                                <div class="info-value">162-175 ס"מ</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">רמה דתית</div>
+                                <div class="info-value">חרדית / דתי לאומי תורני מאוד</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 מבנה גוף ומראה חיצוני</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">מבנה גוף:</span> רזה - אתלטית/בכושר, נאה ומטופחת.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis-gold">מאוד חשוב לו שאשתו תהיה בהירה עור ושיער (בלונדיני או ג'ינג'י).</span></p>
+                        <p style="margin-top: 10px; font-size: 0.9em; color: var(--text-muted);">*מגיל קטן הוא שם לב שלזה הוא נמשך ולאורך הפגישות שעשה זה רק התחזק אצלו.</p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 תכונות אופי 💎</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p style="margin-bottom: 10px;">שמואל צבי הוא אדם מאוד ערכי, יסודי ובעל חזון. לכן חשוב לו התאמה במישורים הבאים:</p>
+                        <ul>
+                            <li><span class="emphasis">בעלת לב טוב ועין טובה</span> - כי גם הוא כזה.</li>
+                            <li><span class="emphasis">מחוברת לתורה ולמצוות</span> - קובעת עיתים ללימוד תורה, יש לה רבנית/רב.</li>
+                            <li><span class="emphasis">צנועה פנימית וחיצונית</span> - כי הוא מאמין בזה בתכלית.</li>
+                            <li><span class="emphasis-gold">רוצה לחבוש כיסוי ראש מלא</span> - חשוב: לא פאה.</li>
+                            <li><span class="emphasis">משפחתית, עדינה ואוהבת ילדים</span> - כי המשפחה במרכז חייו.</li>
+                            <li><span class="emphasis">שמחה, מאורגנת, מסודרת, נקייה</span> - כי גם הוא כזה.</li>
+                            <li><span class="emphasis">חכמה, נבונה, סקרנית ובעלת משמעת עצמית</span> - כי הוא מחפש שותפה אמיתית.</li>
+                            <li><span class="emphasis">ממוקדת במטרותיה</span> - אחת ששואפת ופועלת תמיד להשתפר.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 הפנימיות שהוא מחפש ⭐</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div style="background: var(--bg-cream); padding: 20px; border-radius: var(--radius-sm); margin-bottom: 15px;">
+                            <h4 style="color: var(--primary); margin-bottom: 10px;">אשת אשכולות</h4>
+                            <p>מישהי שאוהבת ללמוד, להתפתח ולהעשיר את עצמה מתוך תשוקה אמיתית - בתחומים רבים: תורה, מדעים, אומנות.<br><br>לא בהכרח בשביל תעודה או קריירה - אלא בשביל אהבת הידע עצמו.</p>
+                        </div>
+                        
+                        <ul>
+                            <li><span class="emphasis-gold">חינוך ביתי</span> - פתוחה לרעיון של חינוך ביתי ומעוניינת לנסות <strong>(זה עקרוני ומרכזי בחזון שלו)</strong>.</li>
+                            <li><span class="emphasis">נטייה שכלית</span> - מישהי שתוכל לנהל איתו שיחות מעמיקות (הוא יותר שכלי מרגשי).</li>
+                            <li><span class="emphasis">מתמודדת עם אתגרים</span> - לוקחת אותם בקלות ובנועם.</li>
+                            <li><span class="emphasis">תודעה בריאותית</span> - לא מעשנת, אוכלת בריא, מתאמנת או שומרת על כושר גופני.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 עדיפויות (לא חובה)</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <div class="info-label">רקע ולימודים</div>
+                                <div class="info-value">עדיפות ללימודים בסמינר או במדרשה</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">רקע משפחתי</div>
+                                <div class="info-value">עדיפות למשפחה חרדית</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">תחומי עניין</div>
+                                <div class="info-value">טכנולוגיה, עיצוב, מדעים, חינוך</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">מוצא</div>
+                                <div class="info-value">עדיפות לאמריקאית / רוסית</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">אזור מגורים</div>
+                                <div class="info-value">עדיפות לצפון הארץ (אך גמיש)</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">שפות</div>
+                                <div class="info-value">עדיפות לדוברת אנגלית שפת אם ועברית</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 7: Homeschooling Vision -->
+        <div class="section" id="homeschool">
+            <div class="section-header" onclick="toggleSection('homeschool')">
+                <span>🏠 החזון המשפחתי - חינוך ביתי</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="highlight-box">
+                    <h3>איך שמואל צבי רואה חינוך ביתי:</h3>
+                    <blockquote>
+                        "כל ילד הוא כמו אבן יקרה ייחודית.
+                        <br><br>בפס ייצור - כל האבנים מקבלות את אותו הליטוש, אותה המסגרת.
+                        <br><br>אצל תכשיטן - כל אבן נבחנת לעומק, מקבלת את החיתוך
+                        והליטוש המדויקים שיוציאו ממנה את המקסימום.
+                        <br><br>חינוך ביתי מאפשר להורים להיות אותם 'תכשיטנים' -
+                        להתאים לכל ילד את החינוך המושלם עבורו."
+                    </blockquote>
+                    <p class="preparation-note">
+                        שמואל צבי מתכונן לנושא זה כבר שנים - לומד, חוקר ומתייעץ עם רבנים.
+                        זו לא החלטה של רגע אלא חזון מגובש עם הבנה עמוקה של המשמעות והאחריות.
+                    </p>
+                </div>
+
+                <p><strong>חינוך ביתי (Homeschooling)</strong> הוא גישה חינוכית שבה ההורים לוקחים אחריות מלאה על חינוך ילדיהם, תוך לימוד והתפתחות בבית ובסביבה הטבעית.</p>
+                
+                <div style="background: var(--secondary-light); padding: 15px; border-radius: var(--radius-sm); margin: 15px 0; border-right: 4px solid var(--secondary);">
+                    <strong>חשוב להבהיר:</strong> זו <strong>לא</strong> גישה שבה ההורים בבית 24/7 ורק בתפקיד מחנכים. זו גישה גמישה שבה הבית והחינוך במקום ראשון, ויש גמישות לשני ההורים לעבוד, ללמוד ולהתפתח.
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 למה בכלל חינוך ביתי?</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis-gold">"להחזיר עטרה ליושנה בחינוך"</span><br>פעם היו ללומדים רב מובהק שלימדם ועיצב את האישיות שלהם, האב היה ממנה מלמד רק מפאת חוסר יכולת.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis">אחריות על החינוך</span><br>ההורים המחנכים אחראים על מה הילדים לומדים, איך הם לומדים, ובאיזה קצב - וכך מספקים להם מעטפת חינוכית, ערכית ולימודית מותאמת אישית ליכולת ולמבנה הנפש של כל ילד.</p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 תמיכה משפחתית</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">אמו ושני אחיו</span> בדעה זו - שחינוך ביתי הוא הדרך הנכונה. הם מתכננים:</p>
+                        <ul>
+                            <li>לעזור אחד לשני בלימוד, בפעילויות ובהדרכה.</li>
+                            <li>לשתף משאבים - חומרי לימוד, כלים, ציוד.</li>
+                            <li>לתמוך זה בזה בקשיים ובהצלחות.</li>
+                            <li>כל אחד ילמד את מה שהוא הכי טוב בו לכל הילדים.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 מה זה דורש מבת הזוג?</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p><span class="emphasis">1. כוח ואמונה 💪</span> - אמונה בצדקת הדרך, כוח פנימי לעמוד בלחץ חברתי, יכולת להתמודד עם ביקורת.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis">2. אשת אשכולות 📚</span> - אישה שאוהבת ללמוד, להתפתח ולהעשיר את עצמה. ככל שהאישה יודעת יותר, כך היא יכולה להעניק יותר לילדים.</p>
+                        <p style="margin-top: 10px;"><span class="emphasis">3. גמישות בעבודה 🕐</span> - העבודה צריכה להיות גמישה, ניתנת לעשייה מהבית לפחות חלק, והעבודה במקום 3-4 בסדר העדיפויות.</p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 יתרונות ואתגרים</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="table-scroll">
+                            <table class="pros-cons-table">
+                                <tr>
+                                    <th>יתרונות ✅</th>
+                                    <th>אתגרים ⚠️</th>
+                                </tr>
+                                <tr>
+                                    <td class="pros-col">
+                                        <ul style="padding-right: 15px; margin: 0;">
+                                            <li>קשר עמוק עם הילדים</li>
+                                            <li>ההורים אחראים על החינוך</li>
+                                            <li>גמישות מלאה</li>
+                                            <li>הערכים שלנו</li>
+                                            <li>פחות לחץ</li>
+                                        </ul>
+                                    </td>
+                                    <td class="cons-col">
+                                        <ul style="padding-right: 15px; margin: 0;">
+                                            <li>לחץ חברתי</li>
+                                            <li>זמן ומסירות</li>
+                                            <li>מציאת פרנסה גמישה</li>
+                                            <li>ארגון חברה לילדים</li>
+                                            <li>ספק עצמי</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p style="font-size: 0.85em; color: var(--text-muted); text-align: center;">💡 ניתן לגלול את הטבלה הצידה במובייל</p>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 הסוד להצלחה</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p style="margin-bottom: 15px;">אמונה בדרך | מסירות | גמישות | תמיכה משפחתית</p>
+                        <div class="highlight-quote">
+                            "בכל מקום של ספק לשאול את הרב"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 8: Summary -->
+        <div class="section" id="summary">
+            <div class="section-header" onclick="toggleSection('summary')">
+                <span>✨ לסיכום</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <p>שמואל צבי הוא בחור באמת מיוחד. לא מיוחד בסגנון "אה כן, חמוד", אלא מיוחד בסגנון שפעם בכמה שנים פוגשים מישהו כזה.</p>
+                
+                <p style="margin-top: 15px;">יש לו <span class="emphasis">חזון ברור</span> של מי הוא רוצה להיות ואיך הוא רוצה לחיות. והוא לא מחכה שהחיים יקרו לו - <span class="emphasis-gold">הוא פשוט עושה</span>. כל פרויקט שהוא נוגע בו, הוא עושה אותו ברמה הכי גבוהה שאפשר.</p>
+                
+                <p style="margin-top: 15px;">אבל מעבר לכל הכישורים והפרויקטים - <span class="emphasis">הוא פשוט בן אדם טוב</span>. מי שמבלה איתו זמן מרגיש את זה. הוא נותן, מקשיב, אכפת לו. והוא ישר - בעולם שלפעמים חסר יושר, זה משהו ממש נדיר.</p>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 מה הוא באמת מחפש?</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <p>הוא לא מחפש את "נורמלי" - הוא מחפש להגשים את השליחות שלו עם מישהי שתרצה לבנות איתו משהו מיוחד.</p>
+                        <p style="margin-top: 10px;">משפחה שחיה לפי ערכים עמוקים, מגדלת ילדים בדרך אמיתית (הארוכה שהיא קצרה), עם קשר עמוק ואהבה אמיתית אחד לשניה.</p>
+                    </div>
+                </div>
+                
+                <div style="background: var(--bg-cream); padding: 20px; border-radius: var(--radius-sm); margin-top: 20px; text-align: center; border: 2px solid var(--secondary);">
+                    <p style="font-size: 1.1em;">אם את מכירה מישהי שאוהבת ללמוד, להתפתח, לחשוב, ובמקביל רוצה משפחה חמה, חיבור עמוק וחיים משמעותיים - <span class="emphasis-gold">זה הבחור בשבילה</span>.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 9: Contact -->
+        <div class="section" id="contact">
+            <div class="section-header" onclick="toggleSection('contact')">
+                <span>📞 פרטי קשר וממליצים</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 משפחה</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="contact-grid">
+                            <div class="contact-card">
+                                <div class="contact-name">איילה שולמית כהן</div>
+                                <div class="contact-role">אמו של שמואל צבי</div>
+                                <div class="contact-phone">054-330-6824</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">מספרי טלפון נוספים</div>
+                                <div class="contact-role">של בני המשפחה</div>
+                                <div class="contact-phone" style="color: var(--primary);">יישלחו לפי בקשה</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 רבנים</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="contact-grid">
+                            <div class="contact-card">
+                                <div class="contact-name">הרב אליעד שמעון</div>
+                                <div class="contact-role">חבר ומלווה בשידוכים</div>
+                                <div class="contact-phone">050-418-7655</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">הרב משולם כהן</div>
+                                <div class="contact-role">הרב שלו</div>
+                                <div class="contact-phone">02-623-0954</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="expand-btn" onclick="toggleExpand(this)">
+                    <div class="expand-btn-header">
+                        <span>🔽 חברים</span>
+                    </div>
+                    <div class="expand-btn-content">
+                        <div class="contact-grid">
+                            <div class="contact-card">
+                                <div class="contact-name">דוד תעיזי</div>
+                                <div class="contact-role">חברותא כיום בלימוד דרך תבונות</div>
+                                <div class="contact-phone">055-672-1414</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">עידן אמסלם</div>
+                                <div class="contact-role">חבר טוב</div>
+                                <div class="contact-phone">050-222-3893</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">יהודה אילוז</div>
+                                <div class="contact-role">חבר טוב</div>
+                                <div class="contact-phone">050-953-9536</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">יקיר רדא</div>
+                                <div class="contact-role">חברותא לשעבר</div>
+                                <div class="contact-phone">053-319-3477</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">מצליח חילו</div>
+                                <div class="contact-role">חבר חדר מהישיבה</div>
+                                <div class="contact-phone">052-719-8033</div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-name">אדיר אזראי</div>
+                                <div class="contact-role">חבר כ-13 שנים</div>
+                                <div class="contact-phone">050-613-6331</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #1a4a5e 0%, #2d7a9c 100%); color: white; padding: 30px 20px; border-radius: var(--radius-sm); margin-top: 20px; text-align: center; box-shadow: 0 8px 25px rgba(26, 74, 94, 0.25);">
+                    <h3 style="margin-bottom: 20px; font-family: 'Noto Serif Hebrew', serif; font-size: 1.3em; font-weight: 700; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">שמואל צבי כהן</h3>
+                    <p style="margin-bottom: 12px; font-size: 0.95em; font-weight: 500; line-height: 1.6;">📱 טלפון: <span dir="ltr" style="font-size: 1em; font-weight: 600; letter-spacing: 0.5px;">053-931-1073</span></p>
+                    <p style="margin-bottom: 12px; font-size: 0.85em; font-weight: 500; line-height: 1.6; overflow-wrap: break-word;">✉️ מייל: shmueltzvi76@gmail.com</p>
+                    <p style="font-size: 0.95em; font-weight: 500; line-height: 1.6;">📍 כתובת: קצרין, רמת הגולן</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thank You Footer -->
+        <div class="thank-you-footer">
+            <h3 style="color: var(--primary); font-family: 'Noto Serif Hebrew', serif; margin-bottom: 15px;">🙏 תודה על הקריאה!</h3>
+            <p>תודה רבה שהקדשת מזמנך לקרוא את הכרטיס ולהכיר את שמואל צבי הוא מודה לך מכל הלב.</p>
+            <p style="margin-top: 10px;">אם את/ה מכיר/ה מישהי שאולי מתאימה, אשמח שתחברי בינינו.</p>
+            <p style="margin-top: 10px;">יישר כוח על העבודה החשובה שאת/ה עושה! 💙</p>
+            <p style="margin-top: 20px; font-size: 1.2em; color: var(--secondary);"><strong>✦ בהצלחה! ✦</strong></p>
+        </div>
+    </div>
+    
+    <script>
+        function toggleSection(id) {
+            const section = document.getElementById(id);
+            section.classList.toggle('active');
+        }
+
+        function toggleExpand(element) {
+            element.classList.toggle('active');
+            const header = element.querySelector('.expand-btn-header span');
+            if (header) {
+                header.textContent = element.classList.contains('active') ? '🔼' + header.textContent.slice(2) : '🔽' + header.textContent.slice(2);
+            }
+        }
+
+        // Preload images for instant loading
+        const photoSources = ['photo 1.png', 'photo 2.jpg', 'photo 3.png'];
+        const preloadedImages = [];
+
+        // Preload with high priority
+        photoSources.forEach(src => {
+            const img = new Image();
+            img.src = src;
+            img.decoding = 'async';
+            preloadedImages.push(img);
+        });
+
+        // Carousel state
+        let photoOrder = [0, 1, 2]; // [left, center, right]
+        let isAnimating = false;
+
+        function shiftPhotos(direction) {
+            if (isAnimating) return;
+            isAnimating = true;
+
+            const imgs = document.querySelectorAll('.photo-card img');
+
+            // Quick fade
+            imgs.forEach(img => {
+                img.style.transition = 'opacity 0.15s ease';
+                img.style.opacity = '0.2';
+            });
+
+            setTimeout(() => {
+                // בעברית (RTL) הכיוונים הפוכים
+                // LEFT arrow (❮): בפועל מוביל ימינה - כיוון השעון
+                // RIGHT arrow (❯): בפועל מוביל שמאלה - נגד כיוון השעון
+                if (direction === 'left') {
+                    // כיוון השעון
+                    photoOrder = [photoOrder[1], photoOrder[2], photoOrder[0]];
+                } else {
+                    // נגד כיוון השעון
+                    photoOrder = [photoOrder[2], photoOrder[0], photoOrder[1]];
+                }
+
+                // Update images instantly from cache
+                imgs.forEach((img, i) => {
+                    img.src = preloadedImages[photoOrder[i]].src;
+                    img.style.opacity = '1';
+                });
+
+                isAnimating = false;
+            }, 150);
+        }
+
+        // Photo Modal for zoom - only for center image
+        function openPhotoModal(card) {
+            // Only allow zoom on center image (desktop) or any image (mobile)
+            if (window.innerWidth <= 768 || card.classList.contains('center')) {
+                const img = card.querySelector('img');
+                const modal = document.getElementById('photoModal');
+                const modalImg = document.getElementById('modalImage');
+                modalImg.src = img.src;
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closePhotoModal() {
+            const modal = document.getElementById('photoModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closePhotoModal();
+        });
+    </script>
+</body>
+</html>
+
+<!-- Deployment trigger -->
+
