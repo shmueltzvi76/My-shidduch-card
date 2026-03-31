@@ -65,32 +65,30 @@
             margin-bottom: 15px;
         }
 
-        /* Language Toggle - Static in page */
+        /* Language Toggle - Top Left Minimalist */
         .language-toggle {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
+            text-align: left;
+            margin-bottom: 15px;
         }
 
         .language-toggle a {
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            gap: 6px;
-            padding: 10px 20px;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-            color: white;
+            gap: 5px;
+            padding: 6px 14px;
+            background: transparent;
+            color: var(--primary);
             text-decoration: none;
-            border-radius: 25px;
-            font-size: 0.9em;
-            font-weight: 600;
-            box-shadow: 0 4px 15px rgba(26, 74, 94, 0.3);
-            transition: all 0.3s ease;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            border: 1px solid var(--primary-light);
+            transition: all 0.2s ease;
         }
 
         .language-toggle a:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(26, 74, 94, 0.4);
+            background: var(--primary);
+            color: white;
         }
         
         /* Intro Box - Thank You */
@@ -600,12 +598,20 @@
         }
         
         @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
             .container {
-                padding: 20px;
+                padding: 15px;
             }
 
             h1 {
-                font-size: 2em;
+                font-size: 1.8em;
+            }
+
+            .subtitle {
+                font-size: 1em;
             }
 
             .carousel-container {
@@ -648,9 +654,17 @@
                 display: none;
             }
 
+            .intro-thank-you {
+                padding: 15px;
+            }
+
+            .intro-highlight {
+                padding: 12px;
+            }
+
             .section-header {
-                font-size: 1.15em;
-                padding: 15px 18px;
+                font-size: 1.1em;
+                padding: 12px 15px;
             }
 
             .info-grid {
@@ -673,13 +687,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>💍 Shidduch Card </h1>
-        <p class="subtitle">Shmuel Tzvi Cohen - Age 27, from Katzrin</p>
-
         <!-- Language Toggle -->
         <div class="language-toggle">
-            <a href="index.html">🌐 גרסה עברית</a>
+            <a href="index.html">🌐 עברית</a>
         </div>
+
+        <h1>💍 Shidduch Card </h1>
+        <p class="subtitle">Shmuel Tzvi Cohen - Age 27, from Katzrin</p>
 
         <!-- Intro Thank You Section -->
         <div class="intro-thank-you">
