@@ -63,13 +63,11 @@
             margin-bottom: 15px;
         }
 
-        /* Language Toggle - Floating Modern Style */
+        /* Language Toggle - Static in page */
         .language-toggle {
-            position: fixed;
-            top: 15px;
-            right: 15px;
-            left: auto;
-            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
         }
 
         .language-toggle a {
@@ -77,32 +75,20 @@
             align-items: center;
             justify-content: center;
             gap: 6px;
-            padding: 10px 18px;
+            padding: 10px 20px;
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
             color: white;
             text-decoration: none;
             border-radius: 25px;
             font-size: 0.9em;
             font-weight: 600;
-            box-shadow: 0 4px 15px rgba(26, 74, 94, 0.4);
-            border: none;
+            box-shadow: 0 4px 15px rgba(26, 74, 94, 0.3);
             transition: all 0.3s ease;
         }
 
         .language-toggle a:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(26, 74, 94, 0.5);
-        }
-
-        @media (max-width: 600px) {
-            .language-toggle {
-                top: 10px;
-                right: 10px;
-            }
-            .language-toggle a {
-                padding: 8px 14px;
-                font-size: 0.85em;
-            }
+            box-shadow: 0 6px 20px rgba(26, 74, 94, 0.4);
         }
         
         /* Intro Box - Thank You */
@@ -669,14 +655,14 @@
     </style>
 </head>
 <body>
-    <!-- Language Toggle - Floating -->
-    <div class="language-toggle">
-        <a href="index-en.html">🌐 English</a>
-    </div>
-
     <div class="container">
         <h1>💍 כרטיס שידוכים </h1>
         <p class="subtitle">שמואל צבי כהן - בן 27 מקצרין</p>
+
+        <!-- Language Toggle -->
+        <div class="language-toggle">
+            <a href="index-en.html">🌐 English Version</a>
+        </div>
 
         <!-- Intro Thank You Section -->
         <div class="intro-thank-you">
