@@ -45,6 +45,8 @@
             padding: 40px;
             border-radius: var(--radius);
             box-shadow: 0 25px 80px rgba(0,0,0,0.25);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         
         h1 {
@@ -333,6 +335,12 @@
             align-items: center;
             font-weight: 600;
             color: var(--primary);
+            gap: 10px;
+        }
+
+        .expand-btn-header span {
+            flex: 1;
+            word-wrap: break-word;
         }
         
         .expand-btn-content {
@@ -340,6 +348,8 @@
             margin-top: 15px;
             padding-top: 15px;
             border-top: 2px dashed var(--primary-light);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         
         .section-content p {
@@ -387,17 +397,22 @@
             padding: 12px 15px;
             border-radius: var(--radius-sm);
             border-left: 3px solid var(--secondary);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
-        
+
         .info-label {
             color: var(--text-muted);
             font-size: 0.85em;
             margin-bottom: 3px;
         }
-        
+
         .info-value {
             color: var(--text-dark);
             font-weight: 500;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
         }
         
         /* Text Styling */
@@ -446,6 +461,8 @@
         li {
             margin-bottom: 15px;
             color: var(--text-dark);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         
         /* Contact Section */
