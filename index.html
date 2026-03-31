@@ -710,13 +710,13 @@
                 <span class="arrow">▼</span>
             </div>
             <div class="section-content">
-                <p>שמואל צבי מחבר בין עולמות - תורה ומדע, רוחניות וטכנולוגיה, עיון ומעשה. בעל חשיבה אנליטית עמוקה לצד רגישות אמיתית לזולת. לומד כרגע בכולל, מתכנת, ובעל חזון חינוכי.</p>
+                <p>שמואל צבי מחבר בין עולמות - תורה ומדע, רוחניות וטכנולוגיה, עיון ומעשה. בעל חשיבה אנליטית עמוקה לצד רגישות אמיתית לזולת. לומד כרגע בכולל, מתכנת, ובעל חזון חינוכי לילדיו בע"ה.</p>
                 <div class="expand-btn" onclick="toggleExpand(this)">
                     <div class="expand-btn-header">
                         <span>🔽 מה באמת מייחד אותו?</span>
                     </div>
                     <div class="expand-btn-content">
-                        <p>מי ששוחח איתו יעיד - הוא חדור מטרה, סקרן ומשתדל תמיד לרדת לשורש העניין.איש אשכולות אמיתי, מקשיב ומבין לעומק. הידע שצובר לא נשאר תיאורטי - הוא בונה ממנו תפיסת עולם ודרך חיים שלמה. מחפש בת זוג שתוכל להעריך ולהתחבר לעומק הזה.</p>
+                        <p>מי ששוחח איתו יעיד - הוא חדור מטרה, סקרן ומשתדל תמיד לרדת לשורש העניין. איש אשכולות אמיתי, מקשיב ומבין לעומק. הידע שצובר לא נשאר תיאורטי - הוא בונה ממנו תפיסת עולם ודרך חיים שלמה. מחפש בת זוג שתוכל להעריך ולהתחבר לעומק הזה.</p>
                         <p style="margin-top: 10px;"><span class="emphasis">שמואל צבי רואה את כל התחומים האלה כדרך לעבוד את ה'.</span></p>
                     </div>
                 </div>
@@ -1402,6 +1402,32 @@
     </div>
     
     <script>
+        // Auto-redirect to English for non-Israel visitors
+        (function() {
+            // Skip if user already chose a language manually
+            if (sessionStorage.getItem('languageChosen')) return;
+
+            // Check user's location using timezone as a reliable method
+            const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            const isIsrael = timezone === 'Asia/Jerusalem' || timezone === 'Asia/Tel_Aviv';
+
+            // If not in Israel, redirect to English version
+            if (!isIsrael && !window.location.pathname.includes('index-en.html')) {
+                sessionStorage.setItem('languageChosen', 'auto');
+                window.location.href = 'index-en.html';
+            }
+        })();
+
+        // Mark language as manually chosen when clicking the toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const langToggle = document.querySelector('.language-toggle a');
+            if (langToggle) {
+                langToggle.addEventListener('click', function() {
+                    sessionStorage.setItem('languageChosen', 'manual');
+                });
+            }
+        });
+
         function toggleSection(id) {
             const section = document.getElementById(id);
             section.classList.toggle('active');

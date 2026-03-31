@@ -1402,6 +1402,16 @@
     </div>
     
     <script>
+        // Mark language as manually chosen when clicking the toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const langToggle = document.querySelector('.language-toggle a');
+            if (langToggle) {
+                langToggle.addEventListener('click', function() {
+                    sessionStorage.setItem('languageChosen', 'manual');
+                });
+            }
+        });
+
         function toggleSection(id) {
             const section = document.getElementById(id);
             section.classList.toggle('active');
