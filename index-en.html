@@ -1522,14 +1522,12 @@
             });
 
             setTimeout(() => {
-                // English LTR - normal directions
-                // LEFT arrow (❮): counter-clockwise (previous)
-                // RIGHT arrow (❯): clockwise (next)
-                if (direction === 'right') {
-                    // Clockwise - next
+                // Same logic as Hebrew version
+                if (direction === 'left') {
+                    // Clockwise
                     photoOrder = [photoOrder[1], photoOrder[2], photoOrder[0]];
                 } else {
-                    // Counter-clockwise - previous
+                    // Counter-clockwise
                     photoOrder = [photoOrder[2], photoOrder[0], photoOrder[1]];
                 }
 
